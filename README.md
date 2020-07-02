@@ -21,6 +21,7 @@
 |SC Trade Tools|http://sc-trade.tools<br />[Mirror 1](http://3.128.227.240)|
 |Patreon|http://patreon.com/sc_trade_tools|
 |Supported Star Citizen version|http://sc-trade.tools/api/system/sc-version|
+|What's new?|https://github.com/EtienneLamoureux/sc-trade-tools/blob/master/CHANGELOG.md|
 |API documentation|http://sc-trade.tools/swagger-ui.html|
 
 ## About
