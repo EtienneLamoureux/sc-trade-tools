@@ -54,5 +54,8 @@ I hope have dynamic prices in the future.
 ### How can I see more results?
 To be as optimized as it is, SC Trade Tools must limit the number of results returned. Don't worry though! If you don't like what you get, filter it out using the facets on the left.
 
+### What's this 'AU' I keep seeing in the results?
+AU stands for [astronomical unit](https://en.wikipedia.org/wiki/Astronomical_unit). It's the only good way to report distances on the scale of a solar system without the numbers getting way too big.
+
 ## Disclaimer
-<small>SC Trade Tools is not endorsed by or affiliated with the Cloud Imperium or Roberts Space Industries group of companies. All game content and materials are copyright Cloud Imperium Rights LLC and Cloud Imperium Rights Ltd.. Star Citizen®, Squadron 42®, Roberts Space Industries®, and Cloud Imperium® are registered trademarks of Cloud Imperium Rights LLC. All rights reserved.</small>
+<sup>SC Trade Tools is not endorsed by or affiliated with the Cloud Imperium or Roberts Space Industries group of companies. All game content and materials are copyright Cloud Imperium Rights LLC and Cloud Imperium Rights Ltd.. Star Citizen®, Squadron 42®, Roberts Space Industries®, and Cloud Imperium® are registered trademarks of Cloud Imperium Rights LLC. All rights reserved.</sup>
