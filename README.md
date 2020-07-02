@@ -18,7 +18,7 @@
 ## Links
 |Resource|Link|
 |:--|:--|
-|SC Trade Tools|http://sc-trade.tools<br />[Mirror 1](http://sctradedata-env.eba-crh3jdvz.us-east-2.elasticbeanstalk.com)|
+|SC Trade Tools|http://sc-trade.tools<br />[Mirror 1](http://3.128.227.240)|
 |Patreon|http://patreon.com/sc_trade_tools|
 |Supported Star Citizen version|http://sc-trade.tools/api/system/sc-version|
 |API documentation|http://sc-trade.tools/swagger-ui.html|
