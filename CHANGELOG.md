@@ -1,4 +1,8 @@
 # SC Trade Tools
+## 1.0.2
+### Bugs
+- #6 Remove "Stanton > Hurston > Aberdeen > Klescher Rehabilitation Facility" as a shop
+
 ## 1.0.1
 ### Features
 - Expose API documentation
