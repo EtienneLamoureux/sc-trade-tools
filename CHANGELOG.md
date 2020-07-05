@@ -1,4 +1,8 @@
 # SC Trade Tools
+## 1.0.3
+### Bugs
+- #10 Fix POST requests over HTTPS fail with 403 "Invalid CORS request"
+
 ## 1.0.2
 ### Bugs
 - #6 Remove "Stanton > Hurston > Aberdeen > Klescher Rehabilitation Facility" as a shop
