@@ -9,7 +9,7 @@
 
 ## 1.0.1
 ### Features
-- Expose API documentation
+- #5 Expose API documentation
   - See [sc-trade.tools/swagger-ui.html](http://sc-trade.tools/swagger-ui.html)
 
 ## 1.0.0
