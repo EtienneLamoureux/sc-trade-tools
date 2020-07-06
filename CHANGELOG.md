@@ -1,4 +1,9 @@
 # SC Trade Tools
+## 1.0.4
+### Other
+- Open the Miscellaneous facet group by default
+- Display the total sell price in /best-buyer
+
 ## 1.0.3
 ### Bugs
 - #10 Fix POST requests over HTTPS fail with 403 "Invalid CORS request"
