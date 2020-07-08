@@ -27,7 +27,7 @@
 |API documentation|http://sc-trade.tools/swagger-ui.html|
 
 ## About
-SC Trade Tools is a passion project from a Star Citizen trader who got tired of looking at spreadsheets! It aims to fill the sweet spot between ease-of-use and fine data-tuning . It does so by providing powerful search filters which allow any trader to gradually refine their trade runs until they find the perfect one for them.
+SC Trade Tools is a passion project from a Star Citizen trader who got tired of looking at spreadsheets! It aims to fill the sweet spot between ease-of-use and fine data-tuning. It does so by providing powerful search filters which allow any trader to gradually refine their trade runs until they find the perfect one for them.
 
 The data comes directly from the game's files, thanks to the awesome contributors over at [unp4k](https://github.com/dolkensp/unp4k). That means that the prices are rapidly updated after a new patch hits. If a new location or item makes it in, they are equally quickly included. The tools also already support multi-system trades via the pathing algorithms that have been built-in: as soon as Pyro is made available to us, SC Trade Tools will know the optimal trade routes.
 
