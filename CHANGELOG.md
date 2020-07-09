@@ -1,7 +1,7 @@
 # SC Trade Tools
 ## 1.1.0
 ### Features
-- Add support for circular trade routes in /trade-routes
+- Add circular trade routes in /trade-routes
 - Add supported Star Citizen version in /home
 
 ### Other
