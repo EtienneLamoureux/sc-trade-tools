@@ -38,6 +38,7 @@ Since the universe simulation makes the prices vary based on supply and demand, 
 > Figuring out the optimal trade run can be a daunting task. Make it easy by using powerful filters to find the best Star Citizen trade routes, tailored specifically to your exact situation and preferences.
 
 ![](https://raw.githubusercontent.com/EtienneLamoureux/sc-trade-tools/master/documentation/trade-routes.PNG)
+![](https://raw.githubusercontent.com/EtienneLamoureux/sc-trade-tools/master/documentation/trade-routes-circuit.PNG)
 
 #### Best buyer
 > Wondering where to sell all that ore you mined? Maybe you've "acquired" some goods and are in need of an unscrupulous buyer. Whatever your hold holds, someone will buy it: find out who will pay the most!
