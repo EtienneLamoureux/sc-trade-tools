@@ -1,4 +1,11 @@
 # SC Trade Tools
+## 1.1.0
+### Features
+- Added support for circular trade routes in /trade-routes
+
+### Other
+- Increase the maximum allowable detour to 100% in /en-route
+
 ## 1.0.4
 ### Other
 - Open the Miscellaneous facet group by default
