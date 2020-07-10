@@ -1,4 +1,12 @@
 # SC Trade Tools
+## 1.2.0
+### Features
+- Add a "maximum number of stops" option for /en-route
+  - Also applies for circular trade routes
+
+### Other
+- Enable better client-side caching
+
 ## 1.1.0
 ### Features
 - Add circular trade routes in /trade-routes
