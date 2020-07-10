@@ -5,7 +5,7 @@
   - Also applies for circular trade routes
 
 ### Other
-- Enable better client-side caching
+- Speed-up dropdowns population time by enabling better client-side caching
 
 ## 1.1.0
 ### Features
