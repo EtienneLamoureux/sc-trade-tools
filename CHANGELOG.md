@@ -1,4 +1,9 @@
 # SC Trade Tools
+## 1.3.1
+### Features
+- Add individual shops to the locations dropdown in the facets
+  - which allows to blacklist/whitelist individual shops
+
 ## 1.3.0
 ### Features
 - Support empty cargo run for close-by shops
