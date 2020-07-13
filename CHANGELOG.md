@@ -5,7 +5,7 @@
   - which allows to blacklist/whitelist individual shops
 
 ### Bugs
- - Show illegal shops in /best-buyer when cargo is not marked as stolen
+ - Correctly show all shops in /best-buyer when cargo is not marked as stolen
 
 ## 1.3.0
 ### Features
