@@ -1,4 +1,9 @@
 # SC Trade Tools
+## 1.3.0
+### Features
+- Support empty cargo run for close-by shops
+- Support stolen cargo
+
 ## 1.2.0
 ### Features
 - Add a "maximum number of stops" option for /en-route
