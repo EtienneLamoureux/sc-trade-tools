@@ -4,6 +4,9 @@
 - Add individual shops to the locations dropdown in the facets
   - which allows to blacklist/whitelist individual shops
 
+### Bugs
+ - Show illegal shops in /best-buyer when cargo is not marked as stolen
+
 ## 1.3.0
 ### Features
 - Support empty cargo run for close-by shops
