@@ -13,8 +13,9 @@
       - [Best buyer](#best-buyer)
       - [En route](#en-route)
   * [F.A.Q.](#faq)
-    + [Why are the prices reported different from the ones in-game?](#why-are-the-prices-reported-different-from-the-ones-in-game-)
-    + [How can I see more results?](#how-can-i-see-more-results-)
+    + [Why are the prices reported different from the ones in-game?](#why-are-the-prices-reported-different-from-the-ones-in-game)
+    + [How can I see more results?](#how-can-i-see-more-results)
+    + [What's this 'AU' I keep seeing in the results?](#whats-this-au-i-keep-seeing-in-the-results)
   * [Disclaimer](#disclaimer)
 
 ## Links
