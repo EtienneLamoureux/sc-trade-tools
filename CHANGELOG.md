@@ -2,6 +2,7 @@
 ## 1.4.0
 ### Features
 - Update data for Star Citizen 3.10
+- #7 Add toggle to display stock details in results
 - Improve results ordering
   - When multiple trades yield the same profit, the shortest routes will now be first
 - Use proper popovers for help icons
