@@ -2,15 +2,15 @@
 ## 1.4.0
 ### Features
 - Update data for Star Citizen 3.10
+- Improve results ordering
+  - When multiple trades yield the same profit, the shortest routes will now be first
 - Use proper popovers for help icons
 
 ### Bugs
 - Remove duplicate shops
   - e.g. "Stanton > Crusader > Port Olisar > Admin"
-- Fix results ordering
-  - When multiple trades yield the same profit, the shortest routes will be first
 - Fix an issue where using the "Maximum commodity volume" filter would prevent the pathing algorithm from using empty cargo runs
-- Fix issue when using "www." in the URL
+- Fix POST requests using `www.` failing with 403 "Invalid CORS request"
 - Fix alt text for images in /home
 
 ### Other
