@@ -63,4 +63,4 @@ To be as optimized as it is, SC Trade Tools must limit the number of results ret
 AU stands for [astronomical unit](https://en.wikipedia.org/wiki/Astronomical_unit). It's the only good way to report distances on the scale of a solar system without the numbers getting way too big.
 
 ## Disclaimer
-<sup>SC Trade Tools is not endorsed by or affiliated with the Cloud Imperium or Roberts Space Industries group of companies. All game content and materials are copyright Cloud Imperium Rights LLC and Cloud Imperium Rights Ltd.. Star Citizen®, Squadron 42®, Roberts Space Industries®, and Cloud Imperium® are registered trademarks of Cloud Imperium Rights LLC. All rights reserved.</sup>
+<sup>SC Trade Tools is an unofficial Star Citizen fansite, not affiliated with the Cloud Imperium group of companies. All content on this site not authored by its host or users are property of their respective owners. Star Citizen®, Roberts Space Industries® and Cloud Imperium ® are registered trademarks of Cloud Imperium Rights LLC</sup>
