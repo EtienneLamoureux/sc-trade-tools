@@ -1,5 +1,5 @@
 # SC Trade Tools
-[SC Trade Tools](http://sc-trade.tools) is a platform where you can find trading-related tools for Star Citizen, tailored precisely to you! With always up-to-date data, powerful filters and fancy optimization algorithms, you're sure to find your ideal trade route!
+[SC Trade Tools](https://sc-trade.tools) is a platform where you can find trading-related tools for Star Citizen, tailored precisely to you! With always up-to-date data, powerful filters and fancy optimization algorithms, you're sure to find your ideal trade route!
 
 ![](https://raw.githubusercontent.com/EtienneLamoureux/sc-trade-tools/master/documentation/home.PNG)
 
@@ -21,11 +21,11 @@
 ## Links
 |Resource|Link|
 |:--|:--|
-|SC Trade Tools|http://sc-trade.tools<br />[Mirror 1](http://3.128.227.240)|
-|Patreon|http://patreon.com/sc_trade_tools|
-|Supported Star Citizen version|http://sc-trade.tools/api/system/sc-version|
+|SC Trade Tools|https://sc-trade.tools<br />[Mirror 1](http://3.128.227.240)|
+|Patreon|https://patreon.com/sc_trade_tools|
+|Supported Star Citizen version|https://sc-trade.tools/api/system/sc-version|
 |What's new?|https://github.com/EtienneLamoureux/sc-trade-tools/blob/master/CHANGELOG.md|
-|API documentation|http://sc-trade.tools/swagger-ui.html|
+|API documentation|https://sc-trade.tools/swagger-ui.html|
 
 ## About
 SC Trade Tools is a passion project from a Star Citizen trader who got tired of looking at spreadsheets! It aims to fill the sweet spot between ease-of-use and fine data-tuning. It does so by providing powerful search filters which allow any trader to gradually refine their trade runs until they find the perfect one for them.
