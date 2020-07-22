@@ -14,6 +14,9 @@
 - Fix alt text for images in /home
 
 ### Other
+- Add content to /home
+  - Sponsors (see the [project's Patreon](https://www.patreon.com/sc_trade_tools))
+  - About information and use cases
 - Add terms & conditions
 - Add privacy policy
 - Rework footer
