@@ -1,4 +1,24 @@
 # SC Trade Tools
+## 1.4.0
+### Features
+- Update data for Star Citizen 3.10
+- Use proper popovers for help icons
+
+### Bugs
+- Remove duplicate shops
+  - e.g. "Stanton > Crusader > Port Olisar > Admin"
+- Fix results ordering
+  - When multiple trades yield the same profit, the shortest routes will be first
+- Fix an issue where using the "Maximum commodity volume" filter would prevent the pathing algorithm from using empty cargo runs
+- Fix issue when using "www." in the URL
+- Fix alt text for images in /home
+
+### Other
+- Add terms & conditions
+- Add privacy policy
+- Rework footer
+- Remove "Join Star Citizen" button in the navbar
+
 ## 1.3.1
 ### Features
 - Add individual shops to the locations dropdown in the facets
