@@ -15,7 +15,7 @@
 - Fix alt text for images in /home
 
 ### Other
-- Better indicate when no results are returned
+- #11 Better indicate when no results are returned
 - Add content to /home
   - Sponsors (see the [project's Patreon](https://www.patreon.com/sc_trade_tools))
   - About information and use cases
