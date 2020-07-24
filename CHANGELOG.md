@@ -18,6 +18,7 @@
 
 ### Other
 - #11 Better indicate when no results are returned
+- Improve navigation of the form facets (filter menu)
 - Add content to /home
   - Sponsors (see the [project's Patreon](https://www.patreon.com/sc_trade_tools))
   - About information and use cases
