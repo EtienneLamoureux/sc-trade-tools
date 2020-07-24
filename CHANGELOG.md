@@ -1,4 +1,6 @@
 # SC Trade Tools
+![](https://sc-trade.tools/assets/home.PNG)
+
 ## 1.4.0
 ### Features
 - Update data for Star Citizen 3.10
