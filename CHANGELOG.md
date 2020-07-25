@@ -1,4 +1,33 @@
 # SC Trade Tools
+![](https://sc-trade.tools/assets/home.PNG)
+
+## 1.4.0
+### Features
+- Update data for Star Citizen 3.10
+- #7 Add toggle to display stock details in results
+- Improve results ordering
+  - When multiple trades yield the same profit, the shortest routes will now be first
+- Use proper popovers for help icons
+
+### Bugs
+- Remove duplicate shops
+  - e.g. "Stanton > Crusader > Port Olisar > Admin"
+- Fix an issue where using the "Maximum commodity volume" filter would prevent the pathing algorithm from using empty cargo runs
+- Fix POST requests using `www.` failing with 403 "Invalid CORS request"
+- Fix alt text for images in /home
+
+### Other
+- #11 Better indicate when no results are returned
+- Improve navigation of the form facets (filter menu)
+- Improve display of numbers
+- Add content to /home
+  - Sponsors (see the [project's Patreon](https://www.patreon.com/sc_trade_tools))
+  - About information and use cases
+- Add terms & conditions
+- Add privacy policy
+- Rework footer
+- Remove "Join Star Citizen" button in the navbar
+
 ## 1.3.1
 ### Features
 - Add individual shops to the locations dropdown in the facets
