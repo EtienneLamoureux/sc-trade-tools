@@ -11,8 +11,6 @@
 - Fix the cargo capacity of the 315p
 
 ### Other
-- Add ads :'(
-  - [Help me get rid of ads](https://patreon.com/sc_trade_tools)
 - #23 Improve large numbers display
 
 ## 1.4.0
