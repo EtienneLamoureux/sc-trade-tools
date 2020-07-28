@@ -1,5 +1,19 @@
 # SC Trade Tools
-![](https://sc-trade.tools/assets/home.PNG)
+![](https://sc-trade.tools/assets/home.png)
+
+## 1.4.1
+### Features
+- #29 Add maximum wait time filter
+- #17 Add a filter for transactions with low inventory refresh rates
+
+### Bugs
+- Fix chains of empty cargo runs when doing business on large planetary bodies
+- Fix the cargo capacity of the 315p
+
+### Other
+- Add ads :'(
+  - [Help me get rid of ads](https://patreon.com/sc_trade_tools)
+- #23 Improve large numbers display
 
 ## 1.4.0
 ### Features
