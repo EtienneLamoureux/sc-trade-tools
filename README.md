@@ -21,7 +21,7 @@
 ## Links
 |Resource|Link|
 |:--|:--|
-|SC Trade Tools|https://sc-trade.tools<br />[Mirror 1](http://3.128.227.240)|
+|SC Trade Tools|https://sc-trade.tools|
 |Patreon|https://patreon.com/sc_trade_tools|
 |Supported Star Citizen version|https://sc-trade.tools/api/system/sc-version|
 |What's new?|https://github.com/EtienneLamoureux/sc-trade-tools/blob/master/CHANGELOG.md|
