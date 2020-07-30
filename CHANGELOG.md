@@ -1,6 +1,14 @@
 # SC Trade Tools
 ![](https://sc-trade.tools/assets/home.png)
 
+## 1.4.2
+### Bugs
+- #31 Fix itineraries including multiple empty cargo runs in a row
+
+### Other
+- #18 Save user preferences between pages
+- #19 Save user preferences between visits
+
 ## 1.4.1
 ### Features
 - #29 Add maximum wait time filter
