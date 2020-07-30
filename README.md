@@ -1,7 +1,7 @@
 # SC Trade Tools
 [SC Trade Tools](https://sc-trade.tools) is a platform where you can find trading-related tools for Star Citizen, tailored precisely to you! With always up-to-date data, powerful filters and fancy optimization algorithms, you're sure to find your ideal trade route!
 
-![](https://raw.githubusercontent.com/EtienneLamoureux/sc-trade-tools/master/documentation/home.png)
+![](https://sc-trade.tools/assets/home.png)
 
 ## Table of contents
 - [SC Trade Tools](#sc-trade-tools)
