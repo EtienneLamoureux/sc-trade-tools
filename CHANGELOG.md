@@ -1,6 +1,4 @@
 # SC Trade Tools
-![](https://sc-trade.tools/assets/home.png)
-
 ## 1.4.2
 ### Bugs
 - #31 Fix itineraries including multiple empty cargo runs in a row
