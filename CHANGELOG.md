@@ -1,4 +1,9 @@
 # SC Trade Tools
+## 1.4.3
+### Bugs
+- Fix "maximum wait time" filter incorrect behaviour
+- Fix "item" and "item type" filters preventing empty cargo runs from being suggested
+
 ## 1.4.2
 ### Bugs
 - #31 Fix itineraries including multiple empty cargo runs in a row
