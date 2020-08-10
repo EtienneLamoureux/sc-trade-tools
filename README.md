@@ -13,9 +13,10 @@
       - [Best buyer](#best-buyer)
       - [En route](#en-route)
   * [F.A.Q.](#faq)
+    + [Why can't I buy/sell as much of a commodity as the website says I can?](#why-can-t-i-buy-sell-as-much-of-a-commodity-as-the-website-says-i-can)
     + [Why are the prices reported different from the ones in-game?](#why-are-the-prices-reported-different-from-the-ones-in-game)
     + [How can I see more results?](#how-can-i-see-more-results)
-    + [What's this 'AU' I keep seeing in the results?](#whats-this-au-i-keep-seeing-in-the-results)
+    + [What's this 'AU' I keep seeing in the results?](#what-s-this--au--i-keep-seeing-in-the-results)
   * [Disclaimer](#disclaimer)
 
 ## Links
@@ -52,6 +53,10 @@ Since the universe simulation makes the prices vary based on supply and demand, 
 ![](https://raw.githubusercontent.com/EtienneLamoureux/sc-trade-tools/master/documentation/en-route.PNG)
 
 ## F.A.Q.
+### Why can't I buy/sell as much of a commodity as the website says I can?
+As the ecomony is global, it is shared across all servers. If someone else is or has been buying/selling the same commodity as you, the available stock will be lowered by that much. Since the data comes from the static game files, the tools will currently only report the total inventory and refresh rates.
+I hope to have dynamic stock details in the future.
+
 ### Why are the prices reported different from the ones in-game?
 The universe simulation makes the prices vary based on supply and demand. Since the data comes from the static game files, the tools will currently only report the most optimistic profit to be made. 
 I hope have dynamic prices in the future.
