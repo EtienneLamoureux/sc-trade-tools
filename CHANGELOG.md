@@ -1,4 +1,12 @@
 # SC Trade Tools
+## 1.4.4
+### Bugs
+- #39 Fix Outpost 54's name
+
+### Other
+- Load 3.10.1 data
+- #46 Add a note about inventories and refresh rates being shared across servers
+
 ## 1.4.3
 ### Bugs
 - Fix "maximum wait time" filter incorrect behaviour
