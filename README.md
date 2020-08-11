@@ -13,8 +13,9 @@
       - [Best buyer](#best-buyer)
       - [En route](#en-route)
   * [F.A.Q.](#faq)
-    + [Why can't I buy/sell as much of a commodity as the website says I can?](#why-can-t-i-buy-sell-as-much-of-a-commodity-as-the-website-says-i-can)
+    + [Why can't I buy/sell as much of a commodity as the website says I can?](#why-cant-i-buysell-as-much-of-a-commodity-as-the-website-says-i-can)
     + [Why are the prices reported different from the ones in-game?](#why-are-the-prices-reported-different-from-the-ones-in-game)
+    + [Why can't I buy/sell a commodity where the website says I should be able to?](#why-cant-i-buysell-a-commodity-where-the-website-says-I-should-be-able-to)
     + [How can I see more results?](#how-can-i-see-more-results)
     + [What's this 'AU' I keep seeing in the results?](#what-s-this--au--i-keep-seeing-in-the-results)
   * [Disclaimer](#disclaimer)
@@ -60,6 +61,10 @@ I hope to have dynamic stock details in the future.
 ### Why are the prices reported different from the ones in-game?
 The universe simulation makes the prices vary based on supply and demand. Since the data comes from the static game files, the tools will currently only report the most optimistic profit to be made. 
 I hope have dynamic prices in the future.
+
+### Why can't I buy/sell a commodity where the website says I should be able to?
+As the ecomony is global, it is shared across all servers. If other players bought/sold all the available stock for a shop, it will stop showing that commoditiy in its trade terminal until it builds some inventory again. Since the data comes from the static game files, the tools will currently only report the total inventory and refresh rates and thus, may show commodities that are currently sold-out.
+I hope to have dynamic stock details in the future.
 
 ### How can I see more results?
 To be as optimized as it is, SC Trade Tools must limit the number of results returned. Don't worry though! If you don't like what you get, filter it out using the facets on the left.
