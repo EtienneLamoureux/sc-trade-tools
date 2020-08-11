@@ -1,11 +1,14 @@
 # SC Trade Tools
 ## 1.4.4
+### Features
+- Load 3.10.1 data
+
 ### Bugs
 - #39 Fix Outpost 54's name
 
 ### Other
-- Load 3.10.1 data
 - #46 Add a note about inventories and refresh rates being shared across servers
+- Reworked the help tooltips
 
 ## 1.4.3
 ### Bugs
