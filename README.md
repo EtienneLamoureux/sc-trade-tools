@@ -13,11 +13,6 @@
       - [Best buyer](#best-buyer)
       - [En route](#en-route)
   * [F.A.Q.](#faq)
-    + [Why can't I buy/sell as much of a commodity as the website says I can?](#why-cant-i-buysell-as-much-of-a-commodity-as-the-website-says-i-can)
-    + [Why are the prices reported different from the ones in-game?](#why-are-the-prices-reported-different-from-the-ones-in-game)
-    + [Why can't I buy/sell a commodity where the website says I should be able to?](#why-cant-i-buysell-a-commodity-where-the-website-says-I-should-be-able-to)
-    + [How can I see more results?](#how-can-i-see-more-results)
-    + [What's this 'AU' I keep seeing in the results?](#what-s-this--au--i-keep-seeing-in-the-results)
   * [Disclaimer](#disclaimer)
 
 ## Links
@@ -54,20 +49,7 @@ Since the universe simulation makes the prices vary based on supply and demand, 
 ![](https://raw.githubusercontent.com/EtienneLamoureux/sc-trade-tools/master/documentation/en-route.PNG)
 
 ## F.A.Q.
-### Why can't I buy/sell as much of a commodity as the website says I can?
-As the economy is global, it is shared across all servers. If someone else is or has been buying/selling the same commodity as you, the available stock will be lowered by that much. Since the data comes from the static game files, the tools will currently only report the total inventory and refresh rates. I hope to have dynamic stock details in the future.
-
-### Why are the prices reported different from the ones in-game?
-The universe simulation makes the prices vary based on supply and demand. Since the data comes from the static game files, the tools will currently only report the most optimistic profit to be made. I hope have dynamic prices in the future.
-
-### Why can't I buy/sell a commodity where the website says I should be able to?
-As the economy is global, it is shared across all servers. If other players bought/sold all the available stock for a shop, it will stop showing that commodity in its trade terminal until it builds some inventory again. Since the data comes from the static game files, the tools will currently only report the total inventory and refresh rates and thus, may show commodities that are currently sold-out. I hope to have dynamic stock details in the future.
-
-### How can I see more results?
-To be as optimized as it is, SC Trade Tools must limit the number of results returned. Don't worry though! If you don't like what you get, filter it out using the facets on the left.
-
-### What's this 'AU' I keep seeing in the results?
-AU stands for [astronomical unit](https://en.wikipedia.org/wiki/Astronomical_unit). It's the only good way to report distances on the scale of a solar system without the numbers getting way too big.
+See the [official website](https://sc-trade.tools#faq).
 
 ## Disclaimer
 <sup>SC Trade Tools is an unofficial Star Citizen fansite, not affiliated with the Cloud Imperium group of companies. All content on SC Trade Tools not authored by its host or users are property of their respective owners. Star Citizen®, Roberts Space Industries® and Cloud Imperium® are registered trademarks of Cloud Imperium Rights LLC</sup>
