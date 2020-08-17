@@ -55,16 +55,13 @@ Since the universe simulation makes the prices vary based on supply and demand, 
 
 ## F.A.Q.
 ### Why can't I buy/sell as much of a commodity as the website says I can?
-As the ecomony is global, it is shared across all servers. If someone else is or has been buying/selling the same commodity as you, the available stock will be lowered by that much. Since the data comes from the static game files, the tools will currently only report the total inventory and refresh rates.
-I hope to have dynamic stock details in the future.
+As the economy is global, it is shared across all servers. If someone else is or has been buying/selling the same commodity as you, the available stock will be lowered by that much. Since the data comes from the static game files, the tools will currently only report the total inventory and refresh rates. I hope to have dynamic stock details in the future.
 
 ### Why are the prices reported different from the ones in-game?
-The universe simulation makes the prices vary based on supply and demand. Since the data comes from the static game files, the tools will currently only report the most optimistic profit to be made. 
-I hope have dynamic prices in the future.
+The universe simulation makes the prices vary based on supply and demand. Since the data comes from the static game files, the tools will currently only report the most optimistic profit to be made. I hope have dynamic prices in the future.
 
 ### Why can't I buy/sell a commodity where the website says I should be able to?
-As the ecomony is global, it is shared across all servers. If other players bought/sold all the available stock for a shop, it will stop showing that commoditiy in its trade terminal until it builds some inventory again. Since the data comes from the static game files, the tools will currently only report the total inventory and refresh rates and thus, may show commodities that are currently sold-out.
-I hope to have dynamic stock details in the future.
+As the economy is global, it is shared across all servers. If other players bought/sold all the available stock for a shop, it will stop showing that commodity in its trade terminal until it builds some inventory again. Since the data comes from the static game files, the tools will currently only report the total inventory and refresh rates and thus, may show commodities that are currently sold-out. I hope to have dynamic stock details in the future.
 
 ### How can I see more results?
 To be as optimized as it is, SC Trade Tools must limit the number of results returned. Don't worry though! If you don't like what you get, filter it out using the facets on the left.
