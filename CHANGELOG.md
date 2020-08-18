@@ -1,4 +1,17 @@
 # SC Trade Tools
+## 1.5.0
+### Features
+- #26 New profit type: over time
+- #34 Add a "reset form" button
+
+### Bugs
+- #33 Fix form values not being saved without changing page
+
+### Other
+- #40 Show no results instead of empty cargo runs when a trade search returns no results
+- Realign help icons
+- Add the F.A.Q. to the website
+
 ## 1.4.4
 ### Features
 - Load 3.10.1 data
