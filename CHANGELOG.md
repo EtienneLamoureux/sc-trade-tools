@@ -1,4 +1,18 @@
 # SC Trade Tools
+## 1.6.0
+### Features
+- #36 Add a filter to ignore hidden locations
+  - Add warning icon next to hidden shops in result
+- Load 3.10.2 data
+
+### Bugs
+- #48 Fix the planetary rest stops names
+- #49 Fix listings of Rayari shops located on Clio
+
+### Other
+- Add "Red Festival Envelope" commodity
+- Add tooltip for Maximum wait time
+
 ## 1.5.0
 ### Features
 - #26 New profit type: over time
