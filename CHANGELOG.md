@@ -1,4 +1,9 @@
 # SC Trade Tools
+## 1.6.1
+### Bugs
+- #50 Correctly flag all hidden locations as such
+- Circular trade routes now respect the chosen profit type, instead of defaulting to "by time"
+
 ## 1.6.0
 ### Features
 - #36 Add a filter to ignore hidden locations
