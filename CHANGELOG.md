@@ -1,4 +1,14 @@
 # SC Trade Tools
+## 1.7.0
+### Features
+- #8 Suggest alternatives for each trade
+- #55 Display buy price, sell price & profit per unit when hovering over aggregate prices
+- #51 Add a warning when user is at risk of not being able to buy/sell as much as displayed
+- #53 Add tips & tricks to the website
+
+### Other
+- #56 Rework planet and moon location type filters into outpost type filters
+
 ## 1.6.1
 ### Bugs
 - #50 Correctly flag all hidden locations as such
