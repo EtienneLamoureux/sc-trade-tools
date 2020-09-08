@@ -12,6 +12,8 @@
       - [Trade routes](#trade-routes)
       - [Best buyer](#best-buyer)
       - [En route](#en-route)
+      - [Commodities](#commodities)
+      - [Shops](#shops)
   * [F.A.Q.](#faq)
   * [Disclaimer](#disclaimer)
 
@@ -47,6 +49,16 @@ Since the universe simulation makes the prices vary based on supply and demand, 
 > Maybe you're on your way to meet friends, or maybe you're simply going to the start of your usual trade run. Either way, might as well make an extra buck by carrying something in your cargo hold!
 
 ![](https://raw.githubusercontent.com/EtienneLamoureux/sc-trade-tools/master/documentation/en-route.PNG)
+
+#### Commodities
+> More the hands-on type? Explore the data, which spans dozens of commodities across entire star systems.
+
+![](https://raw.githubusercontent.com/EtienneLamoureux/sc-trade-tools/master/documentation/commodities.PNG)
+
+#### Shops
+> Being on-site is overrated. Check out any shop's data as if you were there, without even stepping in your ship!
+
+![](https://raw.githubusercontent.com/EtienneLamoureux/sc-trade-tools/master/documentation/shops.PNG)
 
 ## F.A.Q.
 See the [official website](https://sc-trade.tools#faq).
