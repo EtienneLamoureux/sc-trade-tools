@@ -1,4 +1,23 @@
 # SC Trade Tools
+## 2.0.0
+### Features
+- New tool: /commodities
+- New tool: /shops
+- Add bookmarkable links
+
+### Bugs
+- Fix the listings of the Calliope shops
+- Fix the listings of the "Shubin Mining Facility SM0-" shops on microTech
+
+### Other
+- Correctly assess travel time for hidden locations
+- Rework the main cities' shops name to better reflect their location
+- Fix the refinery terminal names
+
+### Breaking changes
+- The API model `TradeDto` has had some of its attributes moved to `TransactionDTO`
+- The `itemAmount` attribute has been renamed `itemQuantity` in all API models for consistency
+
 ## 1.7.0
 ### Features
 - #8 Suggest alternatives for each trade
