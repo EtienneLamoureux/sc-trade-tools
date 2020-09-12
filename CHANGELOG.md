@@ -5,6 +5,7 @@
 
 ### Other
 - In addition to [Patreon](https://www.patreon.com/sc_trade_tools), users can now tip the project through [Ko-fi](https://ko-fi.com/sc_trade_tools)
+- Fixed the headings in /commodities
 
 ## 2.0.0
 ### Features
