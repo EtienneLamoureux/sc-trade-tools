@@ -1,4 +1,11 @@
 # SC Trade Tools
+## 2.0.1
+## Features
+- Add hyperlinks to all commodities and shops, linking to the /commodities and /shops tools
+
+### Other
+- In addition to [Patreon](https://www.patreon.com/sc_trade_tools), users can now tip the project through [Ko-fi](https://ko-fi.com/sc_trade_tools)
+
 ## 2.0.0
 ### Features
 - New tool: /commodities
