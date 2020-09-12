@@ -1,6 +1,6 @@
 # SC Trade Tools
 ## 2.0.1
-## Features
+### Features
 - Add hyperlinks to all commodities and shops, linking to the /commodities and /shops tools
 
 ### Other
