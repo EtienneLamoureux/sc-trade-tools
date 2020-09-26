@@ -12,6 +12,7 @@
       - [Trade routes](#trade-routes)
       - [Best buyer](#best-buyer)
       - [En route](#en-route)
+      - [Mining](#mining)
       - [Commodities](#commodities)
       - [Shops](#shops)
   * [F.A.Q.](#faq)
