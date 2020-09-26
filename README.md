@@ -21,7 +21,7 @@
 |Resource|Link|
 |:--|:--|
 |SC Trade Tools|https://sc-trade.tools|
-|Sponsorship|https://patreon.com/sc_trade_tools|
+|Sponsor|https://patreon.com/sc_trade_tools|
 |Tip jar|https://ko-fi.com/sc_trade_tools|
 |Supported Star Citizen version|https://sc-trade.tools/api/system/sc-version|
 |What's new?|https://github.com/EtienneLamoureux/sc-trade-tools/blob/master/CHANGELOG.md|
@@ -51,13 +51,19 @@ Since the universe simulation makes the prices vary based on supply and demand, 
 
 ![](https://raw.githubusercontent.com/EtienneLamoureux/sc-trade-tools/master/documentation/en-route.PNG)
 
+#### Mining
+> Not all deposits are created equal. Cut the prospection and skip to the extraction by knowing where you're most likely to strike gold, or better yet, quantainium!
+
+![](https://raw.githubusercontent.com/EtienneLamoureux/sc-trade-tools/master/documentation/mining.PNG)
+![](https://raw.githubusercontent.com/EtienneLamoureux/sc-trade-tools/master/documentation/mining-price-list.PNG)
+
 #### Commodities
-> More the hands-on type? Explore the data, which spans dozens of commodities across entire star systems.
+> More the hands-on type? Access the data directly, which spans dozens of commodities across entire star systems, and come up with your own personal trade routes.
 
 ![](https://raw.githubusercontent.com/EtienneLamoureux/sc-trade-tools/master/documentation/commodities.PNG)
 
 #### Shops
-> Being on-site is overrated. Check out any shop's data as if you were there, without even stepping in your ship!
+> Being on-site is overrated. Save yourself some quantum fuel and check out any shop's data as if you were there, without even stepping in your ship!
 
 ![](https://raw.githubusercontent.com/EtienneLamoureux/sc-trade-tools/master/documentation/shops.PNG)
 
