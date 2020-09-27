@@ -1,4 +1,13 @@
 # SC Trade Tools
+## 2.1.0
+### Features
+- Add new tool: /mining
+
+### Other
+- Improve mobile navigation
+- Clarify the function of the buttons in the results of /trade-routes & /en-route
+- Clarify the poorly-supplied-trades warning message
+
 ## 2.0.1
 ### Features
 - Add hyperlinks to all commodities and shops, linking to the /commodities and /shops tools
