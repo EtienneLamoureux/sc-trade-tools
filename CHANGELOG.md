@@ -1,4 +1,8 @@
 # SC Trade Tools
+## 2.1.1
+### Bugs
+- Fix Levski's travel times
+
 ## 2.1.0
 ### Features
 - Add new tool: /mining
