@@ -1,4 +1,12 @@
 # SC Trade Tools
+## 2.1.2
+### Features
+- Load 3.11 data
+- Don't display refinery terminals in trade results
+
+### Bugs
+- Fix the names of the HDMS outposts on Hurston
+
 ## 2.1.1
 ### Bugs
 - Fix Levski's travel times
