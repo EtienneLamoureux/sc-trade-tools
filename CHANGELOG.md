@@ -1,4 +1,8 @@
 # SC Trade Tools
+## 2.1.3
+### Bugs
+- Fix the listings of the "Shubin Mining Facility SM0-" shops on microTech
+
 ## 2.1.2
 ### Features
 - Load 3.11 data
