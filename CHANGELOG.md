@@ -1,4 +1,8 @@
 # SC Trade Tools
+## 2.1.5
+### Other
+- Added the Nomad to the ship list
+
 ## 2.1.4
 ### Other
 - Added the Mercury Star Runner to the ship list
