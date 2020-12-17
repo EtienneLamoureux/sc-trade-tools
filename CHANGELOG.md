@@ -1,4 +1,9 @@
 # SC Trade Tools
+## 2.2.0
+### Features
+- Loaded the 3.12 data
+- Add a new tool: /refineries
+
 ## 2.1.5
 ### Other
 - Added the Nomad to the ship list
