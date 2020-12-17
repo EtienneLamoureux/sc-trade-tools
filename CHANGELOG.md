@@ -6,12 +6,12 @@
 
 ## 2.1.5
 ### Other
-- Added the Nomad to the ship list
+- Add the Nomad to the ship list
 
 ## 2.1.4
 ### Other
-- Added the Mercury Star Runner to the ship list
-- Added links to a [video tutorial](https://youtu.be/dqVhs1cGhmo)
+- Add the Mercury Star Runner to the ship list
+- Add links to a [video tutorial](https://youtu.be/dqVhs1cGhmo)
 
 ## 2.1.3
 ### Bugs
