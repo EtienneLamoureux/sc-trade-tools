@@ -1,4 +1,9 @@
 # SC Trade Tools
+## 3.0.0
+### Features
+- New tool: /ores
+- Updated 3.12 data
+
 ## 2.2.0
 ### Features
 - Load 3.12 data
