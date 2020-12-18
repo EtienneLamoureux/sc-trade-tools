@@ -4,6 +4,9 @@
 - New tool: /ores
 - Updated 3.12 data
 
+### Breaking changes
+- Changes to the items-related APIs' DTOs
+
 ## 2.2.0
 ### Features
 - Load 3.12 data
