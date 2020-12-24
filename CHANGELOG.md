@@ -1,4 +1,9 @@
 # SC Trade Tools
+## 3.0.1
+### Other
+- Update 3.12.0a data
+   - Luminalia gifts can now be sold at select locations for 1000 UEC
+
 ## 3.0.0
 ### Features
 - New tool: /ores
