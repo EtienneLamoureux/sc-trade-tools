@@ -1,4 +1,17 @@
 # SC Trade Tools
+## 3.1.0
+## Features
+- Add the refined value to the minables price list pop-up
+
+## Bugs
+- Fix minimum refresh rate of 0 fails form validation
+- Fix routing when path parameter contains a special character
+
+## Other
+- Rework the top navigation
+- Shorten results links by removing the default values
+- Improve loading times
+
 ## 3.0.1
 ### Other
 - Update 3.12.0a data
