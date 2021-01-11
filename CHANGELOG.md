@@ -3,18 +3,18 @@
 ### Features
 - Load 3.12.0b data
 
-## Bugs
+### Bugs
 - Fix missing commodity: SLAM
 
 ## 3.1.0
-## Features
+### Features
 - Add the refined value to the minables price list pop-up
 
-## Bugs
+### Bugs
 - Fix minimum refresh rate of 0 fails form validation
 - Fix routing when path parameter contains a special character
 
-## Other
+### Other
 - Rework the top navigation
 - Shorten results links by removing the default values
 - Improve loading times
