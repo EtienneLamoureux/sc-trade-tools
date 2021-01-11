@@ -1,4 +1,11 @@
 # SC Trade Tools
+## 3.1.1
+### Features
+- Load 3.12.0b data
+
+## Bugs
+- Fix missing commodity: SLAM
+
 ## 3.1.0
 ## Features
 - Add the refined value to the minables price list pop-up
