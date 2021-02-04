@@ -1,4 +1,11 @@
 # SC Trade Tools
+## 3.1.2
+### Features
+- Load 3.12.1 data
+
+### Other
+- Various performance and security fixes
+
 ## 3.1.1
 ### Features
 - Load 3.12.0b data
