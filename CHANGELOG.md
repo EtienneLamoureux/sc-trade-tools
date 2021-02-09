@@ -1,4 +1,8 @@
 # SC Trade Tools
+## 3.1.3
+### Bugs
+- Fix Clio's shops inventories
+
 ## 3.1.2
 ### Features
 - Load 3.12.1 data
