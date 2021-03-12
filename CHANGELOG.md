@@ -1,4 +1,18 @@
 # SC Trade Tools
+## 4.0.0
+### Features
+- New tool: /deposits
+
+### Bugs
+- Fix Ore Value Index (OVI) for ship deposits
+
+### Other
+- Improve UI performance
+- Improve client-side caching
+
+### Breaking changes
+- Changes to the mining-related APIs' DTOs
+
 ## 3.1.3
 ### Bugs
 - Fix Clio's shops inventories
