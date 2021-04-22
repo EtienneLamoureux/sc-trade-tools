@@ -24,6 +24,7 @@
 |SC Trade Tools|https://sc-trade.tools|
 |Sponsor|https://patreon.com/sc_trade_tools|
 |Tip jar|https://ko-fi.com/sc_trade_tools|
+|Discord server|https://discord.gg/fdCxQAccpG|
 |Supported Star Citizen version|https://sc-trade.tools/api/system/sc-version|
 |What's new?|https://github.com/EtienneLamoureux/sc-trade-tools/blob/master/CHANGELOG.md|
 |API documentation|https://sc-trade.tools/swagger-ui/index.html|
