@@ -1,4 +1,12 @@
 # SC Trade Tools
+## 4.0.1
+### Features
+- Load 3.13 data
+
+### Other
+- Minor improvements to the /deposit tool
+- Minor improvements to the UI's performance
+
 ## 4.0.0
 ### Features
 - New tool: /deposits
