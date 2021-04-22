@@ -4,6 +4,7 @@
 - Load 3.13 data
 
 ### Other
+- SC Trade Tools now has a [Discord server](https://discord.gg/fdCxQAccpG)!
 - Minor improvements to the /deposit tool
 - Minor improvements to the UI's performance
 
