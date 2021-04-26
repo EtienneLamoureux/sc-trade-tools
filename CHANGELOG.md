@@ -1,4 +1,8 @@
 # SC Trade Tools
+## 4.0.2
+### Bugs
+- Fix Lyria's minables
+
 ## 4.0.1
 ### Features
 - Load 3.13 data
