@@ -1,4 +1,15 @@
 # SC Trade Tools
+## 4.0.3
+### Features
+- Load 3.13.1 data
+- Added the Hercules variants
+
+### Bugs
+- Fixed an issue when leaving the "Minables price list" modal
+
+### Misc
+- Sort /best-buyer by refresh rate in addition to price
+
 ## 4.0.2
 ### Bugs
 - Fix Lyria's minables
