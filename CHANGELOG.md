@@ -1,4 +1,8 @@
 # SC Trade Tools
+## 4.0.4
+### Bugs
+- Fixed buy/sell locations for the new event commodities
+
 ## 4.0.3
 ### Features
 - Load 3.13.1 data
