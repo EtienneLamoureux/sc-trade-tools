@@ -1,7 +1,7 @@
 # SC Trade Tools
 ## 4.0.4
 ### Bugs
-- Fixed buy/sell locations for the new event commodities
+- Fix buy/sell locations for the new event commodities
 
 ## 4.0.3
 ### Features
@@ -9,7 +9,7 @@
 - Added the Hercules variants
 
 ### Bugs
-- Fixed an issue when leaving the "Minables price list" modal
+- Fix an issue when leaving the "Minables price list" modal
 
 ### Misc
 - Sort /best-buyer by refresh rate in addition to price
@@ -130,7 +130,7 @@
 
 ### Other
 - In addition to [Patreon](https://www.patreon.com/sc_trade_tools), users can now tip the project through [Ko-fi](https://ko-fi.com/sc_trade_tools)
-- Fixed the headings in /commodities
+- Fix the headings in /commodities
 
 ## 2.0.0
 ### Features
