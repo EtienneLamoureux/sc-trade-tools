@@ -27,7 +27,6 @@
 |Discord server|https://discord.gg/fdCxQAccpG|
 |Supported Star Citizen version|https://sc-trade.tools/api/system/sc-version|
 |What's new?|https://github.com/EtienneLamoureux/sc-trade-tools/blob/master/CHANGELOG.md|
-|API documentation|https://sc-trade.tools/swagger-ui/index.html|
 
 ## About
 SC Trade Tools is a passion project from a Star Citizen trader who got tired of looking at spreadsheets! It aims to fill the sweet spot between ease-of-use and fine data-tuning. It does so by providing powerful search filters which allow any trader to gradually refine their trade runs until they find the perfect one for them.
