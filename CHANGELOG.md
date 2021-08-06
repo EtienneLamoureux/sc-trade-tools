@@ -2,10 +2,10 @@
 ## 4.0.5
 ### Features
 - Load the 3.14 data
-- Added the Constellation Taurus
+- Add the Constellation Taurus
 
 ### Bugs
-- Fixed the ordering of the /best-buyer results
+- Fix the ordering of the /best-buyer results
 
 ## 4.0.4
 ### Bugs
