@@ -1,6 +1,6 @@
 # SC Trade Tools
 ## 4.1.0
-## Features
+### Features
 - Automated the [Sponsors](https://sc-trade.tools/home#sponsors) section of the homepage
 
 ## 4.0.5
