@@ -1,6 +1,9 @@
 # SC Trade Tools
 ## 4.1.0
 ### Features
+- Load 3.14.1 data
+
+### Other
 - Automated the [Sponsors](https://sc-trade.tools/home#sponsors) section of the homepage
 
 ## 4.0.5
@@ -18,12 +21,12 @@
 ## 4.0.3
 ### Features
 - Load 3.13.1 data
-- Added the Hercules variants
+- Add the Hercules variants
 
 ### Bugs
 - Fix an issue when leaving the "Minables price list" modal
 
-### Misc
+### Other
 - Sort /best-buyer by refresh rate in addition to price
 
 ## 4.0.2
