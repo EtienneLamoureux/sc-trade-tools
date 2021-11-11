@@ -1,4 +1,10 @@
 # SC Trade Tools
+## 4.1.1
+### Features
+- Load 3.15 data
+- Add the 400i
+- Add the Hercules A2
+
 ## 4.1.0
 ### Features
 - Load 3.14.1 data
