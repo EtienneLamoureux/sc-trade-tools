@@ -1,4 +1,9 @@
 # SC Trade Tools
+## 4.2.0
+### Features
+- Add an alert banner
+- Update the "well-stocked" detection logic
+
 ## 4.1.1
 ### Features
 - Load 3.15 data
