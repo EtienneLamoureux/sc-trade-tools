@@ -1,4 +1,9 @@
 # SC Trade Tools
+### 4.2.1
+### Features
+- Load 3.15.1 data
+- Add the Redeemer
+
 ## 4.2.0
 ### Features
 - Add an alert banner
