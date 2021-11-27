@@ -1,4 +1,12 @@
 # SC Trade Tools
+### 4.2.2
+### Features
+- Add the Argo RAFT
+
+### Misc
+- Add a Patreon button to the navbar
+- Fix a typo in tips
+
 ### 4.2.1
 ### Features
 - Load 3.15.1 data
