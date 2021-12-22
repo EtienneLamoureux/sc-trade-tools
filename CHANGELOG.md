@@ -1,5 +1,5 @@
 # SC Trade Tools
-### 5.0.0
+## 5.0.0
 ### Features
 - Load 3.16 data
 
@@ -10,7 +10,7 @@
 ### Other
 - Update website preview
 
-### 4.2.2
+## 4.2.2
 ### Features
 - Add the Argo RAFT
 
@@ -18,7 +18,7 @@
 - Add a Patreon button to the navbar
 - Fix a typo in tips
 
-### 4.2.1
+## 4.2.1
 ### Features
 - Load 3.15.1 data
 - Add the Redeemer
