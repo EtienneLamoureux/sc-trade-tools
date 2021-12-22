@@ -1,9 +1,20 @@
 # SC Trade Tools
+### 5.0.0
+### Features
+- Load 3.16 data
+
+### Bugs
+- Fix https://sc-trade.tools/home#sponsors
+- Fix the Mustang Alpha cargo capacity
+
+### Other
+- Update website preview
+
 ### 4.2.2
 ### Features
 - Add the Argo RAFT
 
-### Misc
+### Other
 - Add a Patreon button to the navbar
 - Fix a typo in tips
 
