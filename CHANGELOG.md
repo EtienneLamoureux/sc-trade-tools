@@ -1,4 +1,15 @@
 # SC Trade Tools
+## 6.0.0
+### Features
+- Implement API keys
+
+### Bugs
+- Don't mark empty trades as low supplied
+
+### Other
+- Improve performance and security
+- Add bot prevention mechanism. *If you experience issues, reach out through the #help channel in Discord or the @ModMail bot.*
+
 ## 5.0.0
 ### Features
 - Load 3.16 data
