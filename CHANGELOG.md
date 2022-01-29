@@ -1,7 +1,18 @@
 # SC Trade Tools
+## 6.0.2
+### Features
+- Load 3.16.1 data
+
+### Bugs
+- Fix the cargo capacity of the 890 Jump
+
+## 6.0.1
+### Other
+- Activate bot protection
+
 ## 6.0.0
 ### Features
-- Implement API keys
+- Implement API keys (see [here](https://www.patreon.com/sc_trade_tools) on how to acquire one)
 
 ### Bugs
 - Don't mark empty trades as low supplied
