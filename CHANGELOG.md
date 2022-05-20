@@ -1,4 +1,10 @@
 # SC Trade Tools
+## 6.0.4
+### Features
+- Load 3.17.1 data
+- Add the Hull-A
+- Add the Vulture
+
 ## 6.0.3
 ### Features
 - Load 3.17 data
