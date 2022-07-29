@@ -1,4 +1,8 @@
 # SC Trade Tools
+## 6.0.5
+### Features
+- Load 3.17.2 data
+
 ## 6.0.4
 ### Features
 - Load 3.17.1 data
