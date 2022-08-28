@@ -2,7 +2,7 @@
 ## 6.0.6
 ### Features
 - Refine /mining results by planetary biome
-- Changed the ore distribution graph in /deposits
+- Changed the ore distribution graph in /deposits to a [box plot](https://en.wikipedia.org/wiki/Box_plot)
 
 ## 6.0.5
 ### Features
