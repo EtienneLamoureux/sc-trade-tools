@@ -2,6 +2,7 @@
 ## 6.0.6
 ### Features
 - Refine /mining results by planetary biome
+- Changed the ore distribution graph in /deposits
 
 ## 6.0.5
 ### Features
