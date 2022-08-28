@@ -1,4 +1,8 @@
 # SC Trade Tools
+## 6.0.6
+### Features
+- Refine /mining results by planetary biome
+
 ## 6.0.5
 ### Features
 - Load 3.17.2 data
