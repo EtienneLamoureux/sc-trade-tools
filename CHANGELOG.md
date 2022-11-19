@@ -1,4 +1,13 @@
 # SC Trade Tools
+## 6.0.7
+### Features
+- Load 3.17.4 data
+- Add the Corsair
+- Add the Cutter
+
+### Other
+- Improve performance and security
+
 ## 6.0.6
 ### Features
 - Refine /mining results by planetary biome
