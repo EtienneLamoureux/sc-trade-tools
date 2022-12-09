@@ -1,4 +1,12 @@
 # SC Trade Tools
+## 6.0.8
+### Bugs
+- Fix an issue where the alert banner would disapear after a certain time
+
+### Other
+- Reorganize the navbar
+- Improve performance and security
+
 ## 6.0.7
 ### Features
 - Load 3.17.4 data
