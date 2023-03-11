@@ -1,4 +1,13 @@
 # SC Trade Tools
+## 6.1.0
+### Features
+- Load 3.18 data
+- New tool: /salvage
+- Add the Vulture
+
+### Other
+- Improve performance and security
+
 ## 6.0.8
 ### Bugs
 - Fix an issue where the alert banner would disapear after a certain time
