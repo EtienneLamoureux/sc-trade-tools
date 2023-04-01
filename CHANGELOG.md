@@ -1,4 +1,17 @@
 # SC Trade Tools
+## 7.0.0
+### Features
+- Quantities & prices are now displayed in SCU (instead of units)
+- Add a side navigation on small screens
+
+### Bugs
+- Fix missing commodities (eg. Fluorine)
+- Fix hand-mineables prices
+
+### Other
+- Overhaul the UI in preparation for the mobile app release
+- Rework the dropdown menus
+
 ## 6.1.0
 ### Features
 - Load 3.18 data
