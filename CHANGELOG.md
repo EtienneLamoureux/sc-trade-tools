@@ -3,6 +3,7 @@
 ### Features
 - Display quantities & prices in SCU (instead of units)
 - Add a side navigation on small screens
+- Make better use of screen real estate on large screens
 
 ### Bugs
 - Fix missing commodities (eg. Fluorine)
