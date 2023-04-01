@@ -1,7 +1,7 @@
 # SC Trade Tools
 ## 7.0.0
 ### Features
-- Quantities & prices are now displayed in SCU (instead of units)
+- Display quantities & prices in SCU (instead of units)
 - Add a side navigation on small screens
 
 ### Bugs
