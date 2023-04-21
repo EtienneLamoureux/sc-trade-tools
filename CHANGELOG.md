@@ -1,4 +1,14 @@
 # SC Trade Tools
+## 7.0.1
+### Features
+- Load 3.18.2 data
+
+### Bugs
+- Fix the name of Port Olisar's Admin office
+
+### Other
+- Adjust the size of the side-navigation on mobile
+
 ## 7.0.0
 ### Features
 - Display quantities & prices in SCU (instead of units)
