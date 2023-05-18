@@ -1,4 +1,12 @@
 # SC Trade Tools
+## 7.1.0
+### Features
+- Load 3.19 data
+- Include carrier mineral in deposit name
+
+### Other
+- Release beta version of the Android, iOS and Windows app
+
 ## 7.0.1
 ### Features
 - Load 3.18.2 data
