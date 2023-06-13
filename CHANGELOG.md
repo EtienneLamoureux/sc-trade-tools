@@ -10,7 +10,7 @@
 
 ### Other
 - Move the alert marquee banner to a toast notification
-- Rework filters display on small scrrens
+- Rework filters display on small screens
 - Increase the contrast of the red text
 - Display ore prices in SCU in mining pages
 - Switch the "Top locations" and "Typical cluster size" charts in /deposits
