@@ -1,4 +1,20 @@
 # SC Trade Tools
+## 7.2.0
+### Features
+- Add new /help page
+- Add "Occurence" and five number summary columns to the "Ore composition" table in /deposits
+- Add a new "Abundance" column to the /ores table
+
+### Bugs
+- Fix the price of hand-mineables
+
+### Other
+- Move the alert marquee banner to a toast notification
+- Rework filters display on small scrrens
+- Increase the contrast of the red text
+- Display ore prices in SCU in mining pages
+- Switch the "Top locations" and "Typical cluster size" charts in /deposits
+
 ## 7.1.0
 ### Features
 - Load 3.19 data
