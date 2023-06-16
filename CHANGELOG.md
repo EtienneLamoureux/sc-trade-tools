@@ -1,4 +1,11 @@
 # SC Trade Tools
+## 7.2.1
+### Features
+- Load 3.19.1 data
+
+### Bugs
+- Fix the cargo capacity of the Freelancer MAX
+
 ## 7.2.0
 ### Features
 - Add new /help page
