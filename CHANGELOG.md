@@ -1,6 +1,10 @@
 # SC Trade Tools
 ## 7.2.1
 ### Features
+- Added jump point stations
+
+## 7.2.1
+### Features
 - Load 3.19.1 data
 
 ### Bugs
