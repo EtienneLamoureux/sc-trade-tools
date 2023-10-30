@@ -1,5 +1,9 @@
 # SC Trade Tools
-## 7.2.1
+## 7.2.3
+### Features
+- Added the Hull-C
+
+## 7.2.2
 ### Features
 - Added jump point stations
 
