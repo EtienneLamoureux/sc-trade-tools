@@ -1,4 +1,12 @@
 # SC Trade Tools
+## 7.3.1
+### Features
+- Add the C1 Spirit
+
+## 7.3.0
+### Other
+- Prepare the backend to receive crowdsource commodity listing suybmissions
+
 ## 7.2.3
 ### Features
 - Added the Hull-C
