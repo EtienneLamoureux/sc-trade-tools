@@ -1,4 +1,12 @@
 # SC Trade Tools
+## 8.0.0
+### Breaking changes
+- Replace refresh rate with current quantity
+
+### Features
+- Commodity listings can now be submitted by the community through the [companion application](https://github.com/EtienneLamoureux/sc-trade-companion?tab=readme-ov-file#sc-trade-companion)
+- New page: /leaderboard
+
 ## 7.3.1
 ### Features
 - Add the C1 Spirit
