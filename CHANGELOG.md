@@ -1,4 +1,11 @@
 # SC Trade Tools
+## 8.1.0
+### Features
+- Add [GET /api/crowdsource/commodity-listings](https://sc-trade.tools/swagger-ui/index.html#/crowdsource-controller/getTransactions)
+
+### Other
+- SC Trade Tools now share its crowdsourced community data bidirectionally with [UEX Corp](https://uexcorp.space/)
+
 ## 8.0.0
 ### Breaking changes
 - Replace refresh rate with current quantity
