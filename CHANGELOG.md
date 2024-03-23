@@ -5,7 +5,7 @@
 
 ### Other
 - Improve crowdsourced listings aggregation logic, which should provide better price and quantity estimates
-- Improve backend data cleaning technicques for crowdsourced listings
+- Improve backend data cleaning techniques for crowdsourced listings
 
 ## 8.1.0
 ### Features
