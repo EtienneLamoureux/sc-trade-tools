@@ -1,4 +1,12 @@
 # SC Trade Tools
+## 8.1.1
+### Bugs
+- Fix missing buyers on /best-buyer
+
+### Other
+- Improve crowdsourced listings aggregation logic, which should provide better price and quantity estimates
+- Improve backend data cleaning technicques for crowdsourced listings
+
 ## 8.1.0
 ### Features
 - Add [GET /api/crowdsource/commodity-listings](https://sc-trade.tools/swagger-ui/index.html#/crowdsource-controller/getTransactions)
