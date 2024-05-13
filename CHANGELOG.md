@@ -2,7 +2,7 @@
 ## 8.1.2
 ## Bugs
 - Fix an issue with uexcorp data integration
-- Fix location bounties ordering
+- Fix location bounties sort order
 
 ## Other
 - Hide users with 0 points from leaderboards
