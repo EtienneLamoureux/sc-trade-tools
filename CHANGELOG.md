@@ -1,10 +1,10 @@
 # SC Trade Tools
 ## 8.1.2
-## Bugs
+### Bugs
 - Fix an issue with uexcorp data integration
 - Fix location bounties sort order
 
-## Other
+### Other
 - Hide users with 0 points from leaderboards
 
 ## 8.1.1
