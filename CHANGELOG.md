@@ -1,4 +1,10 @@
 # SC Trade Tools
+## 8.1.3
+### Other
+- Fix pagination of leaderboards
+- Round leaderboards points
+- Fix styling of the alert toast
+
 ## 8.1.2
 ### Bugs
 - Fix an issue with uexcorp data integration
