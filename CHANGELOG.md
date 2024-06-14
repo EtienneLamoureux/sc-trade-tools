@@ -1,4 +1,12 @@
 # SC Trade Tools
+## 8.1.4
+### Bugs
+- Fix website/app intermittently not showing results
+- Fix an issue with uexcorp data integration
+
+### Other
+- Add icons to navbar sub-menus
+
 ## 8.1.3
 ### Other
 - Fix pagination of leaderboards
