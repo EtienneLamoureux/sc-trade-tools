@@ -1,4 +1,9 @@
 # SC Trade Tools
+## 8.1.5
+### Other
+- Maximum inventories now have better realistic default values
+- Fix an issue with uexcorp data integration
+
 ## 8.1.4
 ### Bugs
 - Fix website/app intermittently not showing results
