@@ -1,16 +1,16 @@
 # SC Trade Tools
-# 9.0.0
-## Breaking changes
+## 9.0.0
+### Breaking changes
 - The `mustHaveHangars` field has been added to most request payloads as a mandatory parameter
 
-## Features
+### Features
 - Add a new location filter: "Must have hangars"
   - Use it to filter locations that have enclosed freight elevators and auto-loading enabled
 
-## Bugs
+### Bugs
 - Fix Hull-C routes
 
-## Other
+### Other
 - Maximum inventories now have even better realistic default values
 - Ship names have been updated
 
