@@ -1,7 +1,7 @@
 # SC Trade Tools
 # 9.0.0
 ## Breaking changes
-- The `mustHaveHangars` field has been added to most request payloads as a mandatory parameters
+- The `mustHaveHangars` field has been added to most request payloads as a mandatory parameter
 
 ## Features
 - Add a new location filter: "Must have hangars"
