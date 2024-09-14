@@ -1,7 +1,7 @@
 # SC Trade Tools
 ## 9.0.2
 ### Other
-- Improve erroneous listings filter
+- Improve erroneous listings filter, which will keep the website's shop commodities closer to their in-game listed commodities
 
 ## 9.0.1
 ### Bugs
