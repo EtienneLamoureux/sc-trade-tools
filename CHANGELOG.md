@@ -1,4 +1,12 @@
 # SC Trade Tools
+## 9.0.2
+### Other
+- Improve erroneous listings filter
+
+## 9.0.1
+### Bugs
+- Fix an issue where some users would not get routes
+
 ## 9.0.0
 ### Features
 - Add a new location filter: "Must have hangars"
