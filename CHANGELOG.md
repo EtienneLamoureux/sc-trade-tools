@@ -3,16 +3,6 @@
 *Since 3.19, data-mining the game's client has been very challenging, which in turn made maintaining the dataset for the mining and salvage portion of the website an ever increasing toil.*
 *With version 10, we chose to refocus the tool around trading and commodities. The mining and salvaging commodities, and where to sell them, are still part of the data we plan on continue supporting!*
 
-### Breaking changes
-- Remove the mining and salvage pages, alongside their associated API endpoints
-- Replace the "Must have hangar" location filter (see below)
-- Rework the "Show more details" toggle into "Expanded view" (see below)
-- Most /api/tools/ endpoints now expect new parameters (see [API documentation](https://sc-trade.tools/swagger-ui/index.html) for details)
-  - `factions` & `factionsType`
-  - `minSecurityLevel`
-  - `supportedBoxSizeInScu`
-  - `smartFilters`
-
 ### Features
 - Add the "Smart filter" misc filter
   - Turned ON by default, it smartly selects default values to ensure reasonable trading routes!
@@ -25,6 +15,16 @@
 
 ### Bugs
 - Improve the shops' maximum capacity estimates
+
+### Breaking changes
+- Remove the mining and salvage pages, alongside their associated API endpoints
+- Replace the "Must have hangar" location filter (see above)
+- Rework the "Show more details" toggle into "Expanded view" (see above)
+- Most /api/tools/ endpoints now expect new parameters (see [API documentation](https://sc-trade.tools/swagger-ui/index.html) for details)
+  - `factions` & `factionsType`
+  - `minSecurityLevel`
+  - `supportedBoxSizeInScu`
+  - `smartFilters`
 
 ## 9.0.2
 ### Other
