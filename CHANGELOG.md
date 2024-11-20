@@ -1,4 +1,11 @@
 # SC Trade Tools
+## 10.0.1
+### Features
+- Add the Polaris, Starlancer MAX & Intrepid
+
+### Other
+- Improve performance and security
+
 ## 10.0.0
 *Since 3.19, data-mining the game's client has been very challenging, which in turn made maintaining the dataset for the mining and salvage portion of the website an ever increasing toil.*
 *With version 10, we chose to refocus the tool around trading and commodities. The mining and salvaging commodities, and where to sell them, are still part of the data we plan on continue supporting!*
