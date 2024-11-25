@@ -1,4 +1,13 @@
 # SC Trade Tools
+## 10.0.2
+### Features
+- Add a version check to let users know when the website has a new version
+- Add status page to the footer links
+
+### Other
+- Prepare for inter-system trade routes
+- Improve performance and security
+
 ## 10.0.1
 ### Features
 - Add the Polaris, Starlancer MAX & Intrepid
