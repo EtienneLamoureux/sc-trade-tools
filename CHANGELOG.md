@@ -3,6 +3,9 @@
 ### Features
 - Support the newest release of the [companion application](https://github.com/EtienneLamoureux/sc-trade-companion?tab=readme-ov-file#sc-trade-companion)
 
+### Bugs
+- Fix an issue where prices would not update on schedule
+
 ### Other
 - Improve performance and security
 
