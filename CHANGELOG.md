@@ -1,4 +1,11 @@
 # SC Trade Tools
+## 10.0.3
+### Features
+- Support the newest release of the [companion application](https://github.com/EtienneLamoureux/sc-trade-companion?tab=readme-ov-file#sc-trade-companion)
+
+### Other
+- Improve performance and security
+
 ## 10.0.2
 ### Features
 - Add a version check to let users know when the website has a new version
