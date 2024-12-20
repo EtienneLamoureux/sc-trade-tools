@@ -6,6 +6,7 @@
 - Support cross-system trade routes and itineraries in all tools
 - Support box sizes and associated filters at all locations
   - Auto-filter out routes that are impossible to do in the selected ship
+  - API: Add the `boxSizesInScu` int array field to `TransactionDto`
 - Mark form inputs as invalid when entering too large a value
 - Add the F7C Mk.II (cargo pod)
 
