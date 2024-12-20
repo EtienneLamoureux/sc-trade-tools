@@ -1,4 +1,14 @@
 # SC Trade Tools
+## 10.1.0
+### Features
+- Add Pyro locations & commodities
+- Add missing Stanton locations
+- Support cross-system trade routes and itineraries in all tools
+- Support box sizes and associated filters at all locations
+  - Auto-filter out routes that are impossible to do in the selected ship
+- Mark form inputs as invalid when entering too large a value
+- Add the F7C Mk.II (cargo pod)
+
 ## 10.0.3
 ### Features
 - Support the newest release of the [companion application](https://github.com/EtienneLamoureux/sc-trade-companion?tab=readme-ov-file#sc-trade-companion)
