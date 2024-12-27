@@ -1,4 +1,13 @@
 # SC Trade Tools
+## 10.1.1
+### Bugs
+- Fix location bounties in the leaderboard page
+- Fix submissions always awarded 100 points
+  - Rescore this season's submissions
+
+### Other
+- Correct erroneous listings
+
 ## 10.1.0
 ### Features
 - Add Pyro locations & commodities
