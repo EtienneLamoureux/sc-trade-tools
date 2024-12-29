@@ -1,4 +1,8 @@
 # SC Trade Tools
+## 10.1.2
+### Bugs
+- Fix Hull-C and capital ships trading routes
+
 ## 10.1.1
 ### Bugs
 - Fix location bounties in the leaderboard page
