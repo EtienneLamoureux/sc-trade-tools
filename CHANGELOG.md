@@ -1,4 +1,9 @@
 # SC Trade Tools
+## 10.1.3
+### Other
+- Improve support for licensed API users
+  - If you encounter consistent `403 Forbidden` errors, please reach out
+
 ## 10.1.2
 ### Bugs
 - Fix Hull-C and capital ships trading routes
