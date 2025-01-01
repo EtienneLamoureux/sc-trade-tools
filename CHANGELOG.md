@@ -1,4 +1,13 @@
 # SC Trade Tools
+## 10.1.4
+### Bugs
+- Fix always empty results for some users
+
+### Other
+- Add a tooltip about the value of stolen cargo hauling mission boxes
+- Add a tip about the value of stolen cargo hauling mission boxes
+- Add an F.A.Q. entry about the value of stolen cargo hauling mission boxes
+
 ## 10.1.3
 ### Other
 - Improve support for licensed API users
