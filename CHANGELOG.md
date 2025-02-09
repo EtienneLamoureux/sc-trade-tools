@@ -1,4 +1,13 @@
 # SC Trade Tools
+## 10.2.0
+### Features
+- Add a new "Starting location" location filter
+  - Add a "Set as new starting location" button on trade results
+
+### Other
+- Shorten result pages' URL
+- Add a link to the patch notes on the "A new version of the website is available!" toast
+
 ## 10.1.4
 ### Bugs
 - Fix always empty results for some users
