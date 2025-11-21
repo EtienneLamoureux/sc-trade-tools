@@ -1,4 +1,10 @@
 # SC Trade Tools
+## 10.2.1
+### Bugs
+- Fix "Minimum inventory capacity" is not always properly greyed out
+- Fix a rare issue when importing crowdsourced datapoints
+- Fix an issue when calculating distances through multiple jump points
+
 ## 10.2.0
 ### Features
 - Add a new "Starting location" location filter
