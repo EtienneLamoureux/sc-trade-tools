@@ -1,7 +1,7 @@
 # SC Trade Tools
 ## 10.2.2
 ### Bugs
-- Fix an issue when ingestion submissions from the [companion application](https://github.com/EtienneLamoureux/sc-trade-companion#sc-trade-companion)
+- Fix an issue when ingesting submissions from the [companion application](https://github.com/EtienneLamoureux/sc-trade-companion#sc-trade-companion)
 - Fix the behaviour of the "Locations > Locations (Avoid selection)" filter
 
 ### Other
