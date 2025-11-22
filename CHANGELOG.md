@@ -1,4 +1,15 @@
 # SC Trade Tools
+## 10.2.2
+### Bugs
+- Fix an issue when ingestion submissions from the [companion application](https://github.com/EtienneLamoureux/sc-trade-companion#sc-trade-companion)
+- Fix the behaviour of the "Locations > Locations (Avoid selection)" filter
+
+### Other
+- Add Golem OX
+- Add Perseus
+- Add Salvation
+- Add Clipper
+
 ## 10.2.1
 ### Bugs
 - Fix "Minimum inventory capacity" is not always properly greyed out
