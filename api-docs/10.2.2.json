@@ -1,0 +1,2428 @@
+{
+	"openapi": "3.0.1",
+	"info": {
+		"title": "SC Trade Tools API",
+		"description": "Usage of this API without express written permission is prohibited",
+		"contact": {
+			"name": "Etienne Lamoureux",
+			"url": "https://etiennelamoureux.com/"
+		},
+		"license": {
+			"name": "© 2026 Etienne Lamoureux All Rights Reserved",
+			"url": "https://www.patreon.com/join/sc_trade_tools/checkout?rid=8037569"
+		},
+		"version": "10.2.2"
+	},
+	"servers": [
+		{
+			"url": "/"
+		}
+	],
+	"paths": {
+		"/api/tools/trades": {
+			"post": {
+				"tags": [
+					"shop-controller"
+				],
+				"operationId": "getTrades",
+				"parameters": [
+					{
+						"name": "token",
+						"in": "header",
+						"required": true,
+						"schema": {
+							"type": "string"
+						}
+					}
+				],
+				"requestBody": {
+					"content": {
+						"application/json": {
+							"schema": {
+								"$ref": "#/components/schemas/BoundedTradeFormDto"
+							}
+						}
+					},
+					"required": true
+				},
+				"responses": {
+					"400": {
+						"description": "Bad Request",
+						"content": {
+							"*/*": {
+								"schema": {
+									"oneOf": [
+										{
+											"type": "object",
+											"additionalProperties": {
+												"type": "string"
+											}
+										},
+										{
+											"type": "string"
+										}
+									]
+								}
+							}
+						}
+					},
+					"403": {
+						"description": "Forbidden",
+						"content": {
+							"*/*": {
+								"schema": {
+									"type": "string"
+								}
+							}
+						}
+					},
+					"200": {
+						"description": "OK",
+						"content": {
+							"*/*": {
+								"schema": {
+									"type": "array",
+									"items": {
+										"$ref": "#/components/schemas/TradeDto"
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		"/api/tools/itinerary": {
+			"post": {
+				"tags": [
+					"shop-controller"
+				],
+				"operationId": "getItinerary",
+				"parameters": [
+					{
+						"name": "token",
+						"in": "header",
+						"required": true,
+						"schema": {
+							"type": "string"
+						}
+					}
+				],
+				"requestBody": {
+					"content": {
+						"application/json": {
+							"schema": {
+								"$ref": "#/components/schemas/ItineraryFormDto"
+							}
+						}
+					},
+					"required": true
+				},
+				"responses": {
+					"400": {
+						"description": "Bad Request",
+						"content": {
+							"*/*": {
+								"schema": {
+									"oneOf": [
+										{
+											"type": "object",
+											"additionalProperties": {
+												"type": "string"
+											}
+										},
+										{
+											"type": "string"
+										}
+									]
+								}
+							}
+						}
+					},
+					"403": {
+						"description": "Forbidden",
+						"content": {
+							"*/*": {
+								"schema": {
+									"type": "string"
+								}
+							}
+						}
+					},
+					"200": {
+						"description": "OK",
+						"content": {
+							"*/*": {
+								"schema": {
+									"type": "array",
+									"items": {
+										"$ref": "#/components/schemas/TradeDto"
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		"/api/tools/circuits/{tradeId}": {
+			"post": {
+				"tags": [
+					"shop-controller"
+				],
+				"operationId": "getCircuit",
+				"parameters": [
+					{
+						"name": "tradeId",
+						"in": "path",
+						"required": true,
+						"schema": {
+							"type": "integer",
+							"format": "int32"
+						}
+					},
+					{
+						"name": "token",
+						"in": "header",
+						"required": true,
+						"schema": {
+							"type": "string"
+						}
+					}
+				],
+				"requestBody": {
+					"content": {
+						"application/json": {
+							"schema": {
+								"$ref": "#/components/schemas/TradeFormDto"
+							}
+						}
+					},
+					"required": true
+				},
+				"responses": {
+					"400": {
+						"description": "Bad Request",
+						"content": {
+							"*/*": {
+								"schema": {
+									"oneOf": [
+										{
+											"type": "object",
+											"additionalProperties": {
+												"type": "string"
+											}
+										},
+										{
+											"type": "string"
+										}
+									]
+								}
+							}
+						}
+					},
+					"403": {
+						"description": "Forbidden",
+						"content": {
+							"*/*": {
+								"schema": {
+									"type": "string"
+								}
+							}
+						}
+					},
+					"200": {
+						"description": "OK",
+						"content": {
+							"*/*": {
+								"schema": {
+									"type": "array",
+									"items": {
+										"$ref": "#/components/schemas/TradeDto"
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		"/api/tools/buyers": {
+			"post": {
+				"tags": [
+					"transaction-controller"
+				],
+				"operationId": "getBuyers",
+				"parameters": [
+					{
+						"name": "token",
+						"in": "header",
+						"required": true,
+						"schema": {
+							"type": "string"
+						}
+					}
+				],
+				"requestBody": {
+					"content": {
+						"application/json": {
+							"schema": {
+								"$ref": "#/components/schemas/BuyerFormDto"
+							}
+						}
+					},
+					"required": true
+				},
+				"responses": {
+					"400": {
+						"description": "Bad Request",
+						"content": {
+							"*/*": {
+								"schema": {
+									"oneOf": [
+										{
+											"type": "object",
+											"additionalProperties": {
+												"type": "string"
+											}
+										},
+										{
+											"type": "string"
+										}
+									]
+								}
+							}
+						}
+					},
+					"403": {
+						"description": "Forbidden",
+						"content": {
+							"*/*": {
+								"schema": {
+									"type": "string"
+								}
+							}
+						}
+					},
+					"200": {
+						"description": "OK",
+						"content": {
+							"*/*": {
+								"schema": {
+									"type": "array",
+									"items": {
+										"$ref": "#/components/schemas/TransactionDto"
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		"/api/system/alert": {
+			"get": {
+				"tags": [
+					"system-controller"
+				],
+				"operationId": "getAlert",
+				"parameters": [
+					{
+						"name": "x-client-version",
+						"in": "header",
+						"required": false,
+						"schema": {
+							"type": "string"
+						}
+					}
+				],
+				"responses": {
+					"400": {
+						"description": "Bad Request",
+						"content": {
+							"*/*": {
+								"schema": {
+									"oneOf": [
+										{
+											"type": "object",
+											"additionalProperties": {
+												"type": "string"
+											}
+										},
+										{
+											"type": "string"
+										}
+									]
+								}
+							}
+						}
+					},
+					"403": {
+						"description": "Forbidden",
+						"content": {
+							"*/*": {
+								"schema": {
+									"type": "string"
+								}
+							}
+						}
+					},
+					"200": {
+						"description": "OK",
+						"content": {
+							"*/*": {
+								"schema": {
+									"type": "string"
+								}
+							}
+						}
+					}
+				}
+			},
+			"post": {
+				"tags": [
+					"system-controller"
+				],
+				"operationId": "createAlert",
+				"requestBody": {
+					"content": {
+						"application/json": {
+							"schema": {
+								"$ref": "#/components/schemas/AlertDto"
+							}
+						}
+					},
+					"required": true
+				},
+				"responses": {
+					"400": {
+						"description": "Bad Request",
+						"content": {
+							"*/*": {
+								"schema": {
+									"oneOf": [
+										{
+											"type": "object",
+											"additionalProperties": {
+												"type": "string"
+											}
+										},
+										{
+											"type": "string"
+										}
+									]
+								}
+							}
+						}
+					},
+					"403": {
+						"description": "Forbidden",
+						"content": {
+							"*/*": {
+								"schema": {
+									"type": "string"
+								}
+							}
+						}
+					},
+					"200": {
+						"description": "OK"
+					}
+				}
+			},
+			"delete": {
+				"tags": [
+					"system-controller"
+				],
+				"operationId": "deleteAlert",
+				"requestBody": {
+					"content": {
+						"application/json": {
+							"schema": {
+								"$ref": "#/components/schemas/AlertDto"
+							}
+						}
+					},
+					"required": true
+				},
+				"responses": {
+					"400": {
+						"description": "Bad Request",
+						"content": {
+							"*/*": {
+								"schema": {
+									"oneOf": [
+										{
+											"type": "object",
+											"additionalProperties": {
+												"type": "string"
+											}
+										},
+										{
+											"type": "string"
+										}
+									]
+								}
+							}
+						}
+					},
+					"403": {
+						"description": "Forbidden",
+						"content": {
+							"*/*": {
+								"schema": {
+									"type": "string"
+								}
+							}
+						}
+					},
+					"200": {
+						"description": "OK"
+					}
+				}
+			}
+		},
+		"/api/system/supporters": {
+			"get": {
+				"tags": [
+					"system-controller"
+				],
+				"operationId": "getSupporters",
+				"responses": {
+					"400": {
+						"description": "Bad Request",
+						"content": {
+							"*/*": {
+								"schema": {
+									"oneOf": [
+										{
+											"type": "object",
+											"additionalProperties": {
+												"type": "string"
+											}
+										},
+										{
+											"type": "string"
+										}
+									]
+								}
+							}
+						}
+					},
+					"403": {
+						"description": "Forbidden",
+						"content": {
+							"*/*": {
+								"schema": {
+									"type": "string"
+								}
+							}
+						}
+					},
+					"200": {
+						"description": "OK",
+						"content": {
+							"*/*": {
+								"schema": {
+									"type": "array",
+									"items": {
+										"type": "string"
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		"/api/shops": {
+			"get": {
+				"tags": [
+					"shop-controller"
+				],
+				"operationId": "getShops",
+				"responses": {
+					"400": {
+						"description": "Bad Request",
+						"content": {
+							"*/*": {
+								"schema": {
+									"oneOf": [
+										{
+											"type": "object",
+											"additionalProperties": {
+												"type": "string"
+											}
+										},
+										{
+											"type": "string"
+										}
+									]
+								}
+							}
+						}
+					},
+					"403": {
+						"description": "Forbidden",
+						"content": {
+							"*/*": {
+								"schema": {
+									"type": "string"
+								}
+							}
+						}
+					},
+					"200": {
+						"description": "OK",
+						"content": {
+							"*/*": {
+								"schema": {
+									"type": "array",
+									"items": {
+										"$ref": "#/components/schemas/ShopDto"
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		"/api/shops/{name}/transactions": {
+			"get": {
+				"tags": [
+					"transaction-controller"
+				],
+				"operationId": "getTransactionsForShop",
+				"parameters": [
+					{
+						"name": "name",
+						"in": "path",
+						"required": true,
+						"schema": {
+							"type": "string"
+						}
+					},
+					{
+						"name": "token",
+						"in": "header",
+						"required": true,
+						"schema": {
+							"type": "string"
+						}
+					}
+				],
+				"responses": {
+					"400": {
+						"description": "Bad Request",
+						"content": {
+							"*/*": {
+								"schema": {
+									"oneOf": [
+										{
+											"type": "object",
+											"additionalProperties": {
+												"type": "string"
+											}
+										},
+										{
+											"type": "string"
+										}
+									]
+								}
+							}
+						}
+					},
+					"403": {
+						"description": "Forbidden",
+						"content": {
+							"*/*": {
+								"schema": {
+									"type": "string"
+								}
+							}
+						}
+					},
+					"200": {
+						"description": "OK",
+						"content": {
+							"*/*": {
+								"schema": {
+									"type": "array",
+									"items": {
+										"$ref": "#/components/schemas/TransactionDto"
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		"/api/ships": {
+			"get": {
+				"tags": [
+					"ship-controller"
+				],
+				"operationId": "getShips",
+				"responses": {
+					"400": {
+						"description": "Bad Request",
+						"content": {
+							"*/*": {
+								"schema": {
+									"oneOf": [
+										{
+											"type": "object",
+											"additionalProperties": {
+												"type": "string"
+											}
+										},
+										{
+											"type": "string"
+										}
+									]
+								}
+							}
+						}
+					},
+					"403": {
+						"description": "Forbidden",
+						"content": {
+							"*/*": {
+								"schema": {
+									"type": "string"
+								}
+							}
+						}
+					},
+					"200": {
+						"description": "OK",
+						"content": {
+							"*/*": {
+								"schema": {
+									"type": "array",
+									"items": {
+										"$ref": "#/components/schemas/ShipDto"
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		"/api/securityLevels": {
+			"get": {
+				"tags": [
+					"shop-controller"
+				],
+				"operationId": "getSecurityLevels",
+				"responses": {
+					"400": {
+						"description": "Bad Request",
+						"content": {
+							"*/*": {
+								"schema": {
+									"oneOf": [
+										{
+											"type": "object",
+											"additionalProperties": {
+												"type": "string"
+											}
+										},
+										{
+											"type": "string"
+										}
+									]
+								}
+							}
+						}
+					},
+					"403": {
+						"description": "Forbidden",
+						"content": {
+							"*/*": {
+								"schema": {
+									"type": "string"
+								}
+							}
+						}
+					},
+					"200": {
+						"description": "OK",
+						"content": {
+							"*/*": {
+								"schema": {
+									"type": "array",
+									"items": {
+										"$ref": "#/components/schemas/SecurityLevelDto"
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		"/api/locations": {
+			"get": {
+				"tags": [
+					"location-controller"
+				],
+				"operationId": "getLocations",
+				"responses": {
+					"400": {
+						"description": "Bad Request",
+						"content": {
+							"*/*": {
+								"schema": {
+									"oneOf": [
+										{
+											"type": "object",
+											"additionalProperties": {
+												"type": "string"
+											}
+										},
+										{
+											"type": "string"
+										}
+									]
+								}
+							}
+						}
+					},
+					"403": {
+						"description": "Forbidden",
+						"content": {
+							"*/*": {
+								"schema": {
+									"type": "string"
+								}
+							}
+						}
+					},
+					"200": {
+						"description": "OK",
+						"content": {
+							"*/*": {
+								"schema": {
+									"type": "array",
+									"items": {
+										"$ref": "#/components/schemas/LocationDto"
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		"/api/locationTypes": {
+			"get": {
+				"tags": [
+					"location-controller"
+				],
+				"operationId": "getLocationTypes",
+				"responses": {
+					"400": {
+						"description": "Bad Request",
+						"content": {
+							"*/*": {
+								"schema": {
+									"oneOf": [
+										{
+											"type": "object",
+											"additionalProperties": {
+												"type": "string"
+											}
+										},
+										{
+											"type": "string"
+										}
+									]
+								}
+							}
+						}
+					},
+					"403": {
+						"description": "Forbidden",
+						"content": {
+							"*/*": {
+								"schema": {
+									"type": "string"
+								}
+							}
+						}
+					},
+					"200": {
+						"description": "OK",
+						"content": {
+							"*/*": {
+								"schema": {
+									"type": "array",
+									"items": {
+										"type": "string"
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		"/api/items": {
+			"get": {
+				"tags": [
+					"item-controller"
+				],
+				"operationId": "getItems",
+				"responses": {
+					"400": {
+						"description": "Bad Request",
+						"content": {
+							"*/*": {
+								"schema": {
+									"oneOf": [
+										{
+											"type": "object",
+											"additionalProperties": {
+												"type": "string"
+											}
+										},
+										{
+											"type": "string"
+										}
+									]
+								}
+							}
+						}
+					},
+					"403": {
+						"description": "Forbidden",
+						"content": {
+							"*/*": {
+								"schema": {
+									"type": "string"
+								}
+							}
+						}
+					},
+					"200": {
+						"description": "OK",
+						"content": {
+							"*/*": {
+								"schema": {
+									"type": "array",
+									"items": {
+										"type": "string"
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		"/api/items/{name}/transactions": {
+			"get": {
+				"tags": [
+					"transaction-controller"
+				],
+				"operationId": "getTransactionsForItem",
+				"parameters": [
+					{
+						"name": "name",
+						"in": "path",
+						"required": true,
+						"schema": {
+							"type": "string"
+						}
+					},
+					{
+						"name": "token",
+						"in": "header",
+						"required": true,
+						"schema": {
+							"type": "string"
+						}
+					}
+				],
+				"responses": {
+					"400": {
+						"description": "Bad Request",
+						"content": {
+							"*/*": {
+								"schema": {
+									"oneOf": [
+										{
+											"type": "object",
+											"additionalProperties": {
+												"type": "string"
+											}
+										},
+										{
+											"type": "string"
+										}
+									]
+								}
+							}
+						}
+					},
+					"403": {
+						"description": "Forbidden",
+						"content": {
+							"*/*": {
+								"schema": {
+									"type": "string"
+								}
+							}
+						}
+					},
+					"200": {
+						"description": "OK",
+						"content": {
+							"*/*": {
+								"schema": {
+									"type": "array",
+									"items": {
+										"$ref": "#/components/schemas/TransactionDto"
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		"/api/itemTypes": {
+			"get": {
+				"tags": [
+					"item-controller"
+				],
+				"operationId": "getItemTypes",
+				"responses": {
+					"400": {
+						"description": "Bad Request",
+						"content": {
+							"*/*": {
+								"schema": {
+									"oneOf": [
+										{
+											"type": "object",
+											"additionalProperties": {
+												"type": "string"
+											}
+										},
+										{
+											"type": "string"
+										}
+									]
+								}
+							}
+						}
+					},
+					"403": {
+						"description": "Forbidden",
+						"content": {
+							"*/*": {
+								"schema": {
+									"type": "string"
+								}
+							}
+						}
+					},
+					"200": {
+						"description": "OK",
+						"content": {
+							"*/*": {
+								"schema": {
+									"type": "array",
+									"items": {
+										"type": "string"
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		"/api/graphs/shop/edges/{id}/alternatives": {
+			"get": {
+				"tags": [
+					"shop-controller"
+				],
+				"operationId": "getAlternatives",
+				"parameters": [
+					{
+						"name": "id",
+						"in": "path",
+						"required": true,
+						"schema": {
+							"type": "integer",
+							"format": "int32"
+						}
+					},
+					{
+						"name": "token",
+						"in": "header",
+						"required": true,
+						"schema": {
+							"type": "string"
+						}
+					}
+				],
+				"responses": {
+					"400": {
+						"description": "Bad Request",
+						"content": {
+							"*/*": {
+								"schema": {
+									"oneOf": [
+										{
+											"type": "object",
+											"additionalProperties": {
+												"type": "string"
+											}
+										},
+										{
+											"type": "string"
+										}
+									]
+								}
+							}
+						}
+					},
+					"403": {
+						"description": "Forbidden",
+						"content": {
+							"*/*": {
+								"schema": {
+									"type": "string"
+								}
+							}
+						}
+					},
+					"200": {
+						"description": "OK",
+						"content": {
+							"*/*": {
+								"schema": {
+									"type": "array",
+									"items": {
+										"$ref": "#/components/schemas/TradeDto"
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		"/api/factions": {
+			"get": {
+				"tags": [
+					"shop-controller"
+				],
+				"operationId": "getFactions",
+				"responses": {
+					"400": {
+						"description": "Bad Request",
+						"content": {
+							"*/*": {
+								"schema": {
+									"oneOf": [
+										{
+											"type": "object",
+											"additionalProperties": {
+												"type": "string"
+											}
+										},
+										{
+											"type": "string"
+										}
+									]
+								}
+							}
+						}
+					},
+					"403": {
+						"description": "Forbidden",
+						"content": {
+							"*/*": {
+								"schema": {
+									"type": "string"
+								}
+							}
+						}
+					},
+					"200": {
+						"description": "OK",
+						"content": {
+							"*/*": {
+								"schema": {
+									"type": "array",
+									"items": {
+										"type": "string"
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		"/api/crowdsource/locationBounties": {
+			"get": {
+				"tags": [
+					"crowdsource-controller"
+				],
+				"operationId": "getLocationBounties",
+				"responses": {
+					"400": {
+						"description": "Bad Request",
+						"content": {
+							"*/*": {
+								"schema": {
+									"oneOf": [
+										{
+											"type": "object",
+											"additionalProperties": {
+												"type": "string"
+											}
+										},
+										{
+											"type": "string"
+										}
+									]
+								}
+							}
+						}
+					},
+					"403": {
+						"description": "Forbidden",
+						"content": {
+							"*/*": {
+								"schema": {
+									"type": "string"
+								}
+							}
+						}
+					},
+					"200": {
+						"description": "OK",
+						"content": {
+							"*/*": {
+								"schema": {
+									"type": "array",
+									"items": {
+										"$ref": "#/components/schemas/LocationBountyDto"
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		"/api/crowdsource/leaderboards/previous": {
+			"get": {
+				"tags": [
+					"crowdsource-controller"
+				],
+				"operationId": "getPreviousLeaderboard",
+				"responses": {
+					"400": {
+						"description": "Bad Request",
+						"content": {
+							"*/*": {
+								"schema": {
+									"oneOf": [
+										{
+											"type": "object",
+											"additionalProperties": {
+												"type": "string"
+											}
+										},
+										{
+											"type": "string"
+										}
+									]
+								}
+							}
+						}
+					},
+					"403": {
+						"description": "Forbidden",
+						"content": {
+							"*/*": {
+								"schema": {
+									"type": "string"
+								}
+							}
+						}
+					},
+					"200": {
+						"description": "OK",
+						"content": {
+							"*/*": {
+								"schema": {
+									"type": "array",
+									"items": {
+										"$ref": "#/components/schemas/LeaderboardUserDto"
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		"/api/crowdsource/leaderboards/overall": {
+			"get": {
+				"tags": [
+					"crowdsource-controller"
+				],
+				"operationId": "getOverallLeaderboard",
+				"responses": {
+					"400": {
+						"description": "Bad Request",
+						"content": {
+							"*/*": {
+								"schema": {
+									"oneOf": [
+										{
+											"type": "object",
+											"additionalProperties": {
+												"type": "string"
+											}
+										},
+										{
+											"type": "string"
+										}
+									]
+								}
+							}
+						}
+					},
+					"403": {
+						"description": "Forbidden",
+						"content": {
+							"*/*": {
+								"schema": {
+									"type": "string"
+								}
+							}
+						}
+					},
+					"200": {
+						"description": "OK",
+						"content": {
+							"*/*": {
+								"schema": {
+									"type": "array",
+									"items": {
+										"$ref": "#/components/schemas/LeaderboardUserDto"
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		"/api/crowdsource/leaderboards/current": {
+			"get": {
+				"tags": [
+					"crowdsource-controller"
+				],
+				"operationId": "getCurrentLeaderboard",
+				"responses": {
+					"400": {
+						"description": "Bad Request",
+						"content": {
+							"*/*": {
+								"schema": {
+									"oneOf": [
+										{
+											"type": "object",
+											"additionalProperties": {
+												"type": "string"
+											}
+										},
+										{
+											"type": "string"
+										}
+									]
+								}
+							}
+						}
+					},
+					"403": {
+						"description": "Forbidden",
+						"content": {
+							"*/*": {
+								"schema": {
+									"type": "string"
+								}
+							}
+						}
+					},
+					"200": {
+						"description": "OK",
+						"content": {
+							"*/*": {
+								"schema": {
+									"type": "array",
+									"items": {
+										"$ref": "#/components/schemas/LeaderboardUserDto"
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		"/api/crowdsource/commodity-listings": {
+			"get": {
+				"tags": [
+					"crowdsource-controller"
+				],
+				"description": "Fetches crowdsourced commodity listings submitted to the website. <ul><li>This data is unfiltered and may contain outliers</li><li>This endpoint is cached server-side for 1 hour</li></ul>",
+				"operationId": "getTransactions",
+				"parameters": [
+					{
+						"name": "page",
+						"in": "query",
+						"required": false,
+						"schema": {
+							"type": "integer",
+							"format": "int32",
+							"default": 0
+						}
+					}
+				],
+				"responses": {
+					"400": {
+						"description": "Bad Request",
+						"content": {
+							"*/*": {
+								"schema": {
+									"oneOf": [
+										{
+											"type": "object",
+											"additionalProperties": {
+												"type": "string"
+											}
+										},
+										{
+											"type": "string"
+										}
+									]
+								}
+							}
+						}
+					},
+					"403": {
+						"description": "Forbidden",
+						"content": {
+							"*/*": {
+								"schema": {
+									"type": "string"
+								}
+							}
+						}
+					},
+					"200": {
+						"description": "OK",
+						"content": {
+							"*/*": {
+								"schema": {
+									"$ref": "#/components/schemas/PageCrowdsourceCommodityListingsDto"
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"components": {
+		"schemas": {
+			"BoundedTradeFormDto": {
+				"required": [
+					"allowWaitTimes",
+					"avoidHiddenLocations",
+					"factionsType",
+					"investment",
+					"itemNamesType",
+					"itemTypesType",
+					"locationNamesType",
+					"locationTypesType",
+					"maxStops",
+					"minSecurityLevel",
+					"profitType",
+					"ship",
+					"smartFilters",
+					"supportedBoxSizeInScu"
+				],
+				"type": "object",
+				"properties": {
+					"locationNames": {
+						"type": "array",
+						"example": [
+							"Stanton > microTech"
+						],
+						"items": {
+							"type": "string",
+							"example": "[\"Stanton > microTech\"]"
+						}
+					},
+					"locationNamesType": {
+						"pattern": "whitelist|blacklist",
+						"type": "string",
+						"example": "blacklist",
+						"enum": [
+							"blacklist,whitelist"
+						]
+					},
+					"locationTypes": {
+						"type": "array",
+						"example": [
+							"City"
+						],
+						"items": {
+							"type": "string",
+							"example": "[\"City\"]"
+						}
+					},
+					"locationTypesType": {
+						"pattern": "whitelist|blacklist",
+						"type": "string",
+						"example": "blacklist",
+						"enum": [
+							"blacklist,whitelist"
+						]
+					},
+					"factions": {
+						"type": "array",
+						"example": [
+							"United Empire of Earth (UEE)"
+						],
+						"items": {
+							"type": "string",
+							"example": "[\"United Empire of Earth (UEE)\"]"
+						}
+					},
+					"factionsType": {
+						"pattern": "whitelist|blacklist",
+						"type": "string",
+						"example": "blacklist",
+						"enum": [
+							"blacklist,whitelist"
+						]
+					},
+					"minSecurityLevel": {
+						"maximum": 99,
+						"minimum": 0,
+						"type": "integer",
+						"format": "int32",
+						"example": 1
+					},
+					"supportedBoxSizeInScu": {
+						"maximum": 32,
+						"minimum": 1,
+						"type": "integer",
+						"format": "int32",
+						"example": 32
+					},
+					"avoidHiddenLocations": {
+						"type": "boolean",
+						"example": true
+					},
+					"itemNames": {
+						"type": "array",
+						"example": [
+							"Astatine",
+							"Medical Supplies"
+						],
+						"items": {
+							"type": "string",
+							"example": "[\"Astatine\",\"Medical Supplies\"]"
+						}
+					},
+					"itemNamesType": {
+						"pattern": "whitelist|blacklist",
+						"type": "string",
+						"example": "blacklist",
+						"enum": [
+							"blacklist,whitelist"
+						]
+					},
+					"itemTypes": {
+						"type": "array",
+						"example": [
+							"Vice"
+						],
+						"items": {
+							"type": "string",
+							"example": "[\"Vice\"]"
+						}
+					},
+					"itemTypesType": {
+						"pattern": "whitelist|blacklist",
+						"type": "string",
+						"example": "blacklist",
+						"enum": [
+							"blacklist,whitelist"
+						]
+					},
+					"maxVolume": {
+						"maximum": 100000000,
+						"type": "integer",
+						"format": "int32",
+						"example": 1
+					},
+					"investment": {
+						"maximum": 100000000,
+						"type": "integer",
+						"format": "int32",
+						"example": 50000
+					},
+					"profitType": {
+						"pattern": "time|pure",
+						"type": "string",
+						"example": "time",
+						"enum": [
+							"time,pure"
+						]
+					},
+					"ship": {
+						"type": "string",
+						"example": "Freelancer"
+					},
+					"maxStops": {
+						"maximum": 5,
+						"type": "integer",
+						"format": "int32",
+						"example": 5
+					},
+					"allowWaitTimes": {
+						"type": "boolean",
+						"example": false
+					},
+					"smartFilters": {
+						"type": "boolean",
+						"example": false
+					},
+					"minInventorySizeInScu": {
+						"maximum": 100000000,
+						"type": "integer",
+						"format": "int32",
+						"example": 100
+					},
+					"origin": {
+						"type": "string",
+						"example": "Stanton > Crusader > Port Olisar > Admin"
+					}
+				}
+			},
+			"TradeDto": {
+				"type": "object",
+				"properties": {
+					"id": {
+						"type": "integer",
+						"format": "int32"
+					},
+					"origin": {
+						"$ref": "#/components/schemas/TransactionDto"
+					},
+					"destination": {
+						"$ref": "#/components/schemas/TransactionDto"
+					},
+					"profitPerMinute": {
+						"type": "number",
+						"format": "double"
+					},
+					"profit": {
+						"type": "number",
+						"format": "double"
+					},
+					"timeInSeconds": {
+						"type": "integer",
+						"format": "int32"
+					}
+				}
+			},
+			"TransactionDto": {
+				"type": "object",
+				"properties": {
+					"location": {
+						"type": "string"
+					},
+					"shop": {
+						"type": "string"
+					},
+					"securityLevel": {
+						"type": "integer",
+						"format": "int32"
+					},
+					"faction": {
+						"type": "string"
+					},
+					"action": {
+						"type": "string"
+					},
+					"itemQuantityInScu": {
+						"type": "integer",
+						"format": "int32"
+					},
+					"itemName": {
+						"type": "string"
+					},
+					"price": {
+						"type": "number",
+						"format": "double"
+					},
+					"quantityInScu": {
+						"type": "integer",
+						"format": "int32"
+					},
+					"maxQuantityInScu": {
+						"type": "integer",
+						"format": "int32"
+					},
+					"boxSizesInScu": {
+						"type": "array",
+						"items": {
+							"type": "integer",
+							"format": "int32"
+						}
+					},
+					"isHidden": {
+						"type": "boolean"
+					},
+					"locationAndShop": {
+						"type": "string",
+						"writeOnly": true
+					}
+				}
+			},
+			"ItineraryFormDto": {
+				"required": [
+					"allowWaitTimes",
+					"allowableDetour",
+					"avoidHiddenLocations",
+					"destination",
+					"factionsType",
+					"investment",
+					"itemNamesType",
+					"itemTypesType",
+					"locationNamesType",
+					"locationTypesType",
+					"maxStops",
+					"minSecurityLevel",
+					"origin",
+					"profitType",
+					"ship",
+					"smartFilters",
+					"supportedBoxSizeInScu"
+				],
+				"type": "object",
+				"properties": {
+					"locationNames": {
+						"type": "array",
+						"example": [
+							"Stanton > microTech"
+						],
+						"items": {
+							"type": "string",
+							"example": "[\"Stanton > microTech\"]"
+						}
+					},
+					"locationNamesType": {
+						"pattern": "whitelist|blacklist",
+						"type": "string",
+						"example": "blacklist",
+						"enum": [
+							"blacklist,whitelist"
+						]
+					},
+					"locationTypes": {
+						"type": "array",
+						"example": [
+							"City"
+						],
+						"items": {
+							"type": "string",
+							"example": "[\"City\"]"
+						}
+					},
+					"locationTypesType": {
+						"pattern": "whitelist|blacklist",
+						"type": "string",
+						"example": "blacklist",
+						"enum": [
+							"blacklist,whitelist"
+						]
+					},
+					"factions": {
+						"type": "array",
+						"example": [
+							"United Empire of Earth (UEE)"
+						],
+						"items": {
+							"type": "string",
+							"example": "[\"United Empire of Earth (UEE)\"]"
+						}
+					},
+					"factionsType": {
+						"pattern": "whitelist|blacklist",
+						"type": "string",
+						"example": "blacklist",
+						"enum": [
+							"blacklist,whitelist"
+						]
+					},
+					"minSecurityLevel": {
+						"maximum": 99,
+						"minimum": 0,
+						"type": "integer",
+						"format": "int32",
+						"example": 1
+					},
+					"supportedBoxSizeInScu": {
+						"maximum": 32,
+						"minimum": 1,
+						"type": "integer",
+						"format": "int32",
+						"example": 32
+					},
+					"avoidHiddenLocations": {
+						"type": "boolean",
+						"example": true
+					},
+					"itemNames": {
+						"type": "array",
+						"example": [
+							"Astatine",
+							"Medical Supplies"
+						],
+						"items": {
+							"type": "string",
+							"example": "[\"Astatine\",\"Medical Supplies\"]"
+						}
+					},
+					"itemNamesType": {
+						"pattern": "whitelist|blacklist",
+						"type": "string",
+						"example": "blacklist",
+						"enum": [
+							"blacklist,whitelist"
+						]
+					},
+					"itemTypes": {
+						"type": "array",
+						"example": [
+							"Vice"
+						],
+						"items": {
+							"type": "string",
+							"example": "[\"Vice\"]"
+						}
+					},
+					"itemTypesType": {
+						"pattern": "whitelist|blacklist",
+						"type": "string",
+						"example": "blacklist",
+						"enum": [
+							"blacklist,whitelist"
+						]
+					},
+					"maxVolume": {
+						"maximum": 100000000,
+						"type": "integer",
+						"format": "int32",
+						"example": 1
+					},
+					"investment": {
+						"maximum": 100000000,
+						"type": "integer",
+						"format": "int32",
+						"example": 50000
+					},
+					"profitType": {
+						"pattern": "time|pure",
+						"type": "string",
+						"example": "time",
+						"enum": [
+							"time,pure"
+						]
+					},
+					"ship": {
+						"type": "string",
+						"example": "Freelancer"
+					},
+					"maxStops": {
+						"maximum": 5,
+						"type": "integer",
+						"format": "int32",
+						"example": 5
+					},
+					"allowWaitTimes": {
+						"type": "boolean",
+						"example": false
+					},
+					"smartFilters": {
+						"type": "boolean",
+						"example": false
+					},
+					"minInventorySizeInScu": {
+						"maximum": 100000000,
+						"type": "integer",
+						"format": "int32",
+						"example": 100
+					},
+					"origin": {
+						"type": "string",
+						"example": "Stanton > Crusader > Port Olisar > Admin"
+					},
+					"destination": {
+						"type": "string",
+						"example": "Stanton > Crusader > Yela > Grim HEX > Admin"
+					},
+					"allowableDetour": {
+						"maximum": 100,
+						"type": "integer",
+						"format": "int32",
+						"example": 25
+					}
+				}
+			},
+			"TradeFormDto": {
+				"required": [
+					"allowWaitTimes",
+					"avoidHiddenLocations",
+					"factionsType",
+					"investment",
+					"itemNamesType",
+					"itemTypesType",
+					"locationNamesType",
+					"locationTypesType",
+					"maxStops",
+					"minSecurityLevel",
+					"profitType",
+					"ship",
+					"smartFilters",
+					"supportedBoxSizeInScu"
+				],
+				"type": "object",
+				"properties": {
+					"locationNames": {
+						"type": "array",
+						"example": [
+							"Stanton > microTech"
+						],
+						"items": {
+							"type": "string",
+							"example": "[\"Stanton > microTech\"]"
+						}
+					},
+					"locationNamesType": {
+						"pattern": "whitelist|blacklist",
+						"type": "string",
+						"example": "blacklist",
+						"enum": [
+							"blacklist,whitelist"
+						]
+					},
+					"locationTypes": {
+						"type": "array",
+						"example": [
+							"City"
+						],
+						"items": {
+							"type": "string",
+							"example": "[\"City\"]"
+						}
+					},
+					"locationTypesType": {
+						"pattern": "whitelist|blacklist",
+						"type": "string",
+						"example": "blacklist",
+						"enum": [
+							"blacklist,whitelist"
+						]
+					},
+					"factions": {
+						"type": "array",
+						"example": [
+							"United Empire of Earth (UEE)"
+						],
+						"items": {
+							"type": "string",
+							"example": "[\"United Empire of Earth (UEE)\"]"
+						}
+					},
+					"factionsType": {
+						"pattern": "whitelist|blacklist",
+						"type": "string",
+						"example": "blacklist",
+						"enum": [
+							"blacklist,whitelist"
+						]
+					},
+					"minSecurityLevel": {
+						"maximum": 99,
+						"minimum": 0,
+						"type": "integer",
+						"format": "int32",
+						"example": 1
+					},
+					"supportedBoxSizeInScu": {
+						"maximum": 32,
+						"minimum": 1,
+						"type": "integer",
+						"format": "int32",
+						"example": 32
+					},
+					"avoidHiddenLocations": {
+						"type": "boolean",
+						"example": true
+					},
+					"itemNames": {
+						"type": "array",
+						"example": [
+							"Astatine",
+							"Medical Supplies"
+						],
+						"items": {
+							"type": "string",
+							"example": "[\"Astatine\",\"Medical Supplies\"]"
+						}
+					},
+					"itemNamesType": {
+						"pattern": "whitelist|blacklist",
+						"type": "string",
+						"example": "blacklist",
+						"enum": [
+							"blacklist,whitelist"
+						]
+					},
+					"itemTypes": {
+						"type": "array",
+						"example": [
+							"Vice"
+						],
+						"items": {
+							"type": "string",
+							"example": "[\"Vice\"]"
+						}
+					},
+					"itemTypesType": {
+						"pattern": "whitelist|blacklist",
+						"type": "string",
+						"example": "blacklist",
+						"enum": [
+							"blacklist,whitelist"
+						]
+					},
+					"maxVolume": {
+						"maximum": 100000000,
+						"type": "integer",
+						"format": "int32",
+						"example": 1
+					},
+					"investment": {
+						"maximum": 100000000,
+						"type": "integer",
+						"format": "int32",
+						"example": 50000
+					},
+					"profitType": {
+						"pattern": "time|pure",
+						"type": "string",
+						"example": "time",
+						"enum": [
+							"time,pure"
+						]
+					},
+					"ship": {
+						"type": "string",
+						"example": "Freelancer"
+					},
+					"maxStops": {
+						"maximum": 5,
+						"type": "integer",
+						"format": "int32",
+						"example": 5
+					},
+					"allowWaitTimes": {
+						"type": "boolean",
+						"example": false
+					},
+					"smartFilters": {
+						"type": "boolean",
+						"example": false
+					},
+					"minInventorySizeInScu": {
+						"maximum": 100000000,
+						"type": "integer",
+						"format": "int32",
+						"example": 100
+					}
+				}
+			},
+			"BuyerFormDto": {
+				"required": [
+					"allowWaitTimes",
+					"avoidHiddenLocations",
+					"factionsType",
+					"isCargoStolen",
+					"itemName",
+					"itemQuantityInScu",
+					"locationNamesType",
+					"locationTypesType",
+					"minSecurityLevel",
+					"supportedBoxSizeInScu"
+				],
+				"type": "object",
+				"properties": {
+					"locationNames": {
+						"type": "array",
+						"example": [
+							"Stanton > microTech"
+						],
+						"items": {
+							"type": "string",
+							"example": "[\"Stanton > microTech\"]"
+						}
+					},
+					"locationNamesType": {
+						"pattern": "whitelist|blacklist",
+						"type": "string",
+						"example": "blacklist",
+						"enum": [
+							"blacklist,whitelist"
+						]
+					},
+					"locationTypes": {
+						"type": "array",
+						"example": [
+							"City"
+						],
+						"items": {
+							"type": "string",
+							"example": "[\"City\"]"
+						}
+					},
+					"locationTypesType": {
+						"pattern": "whitelist|blacklist",
+						"type": "string",
+						"example": "blacklist",
+						"enum": [
+							"blacklist,whitelist"
+						]
+					},
+					"factions": {
+						"type": "array",
+						"example": [
+							"United Empire of Earth (UEE)"
+						],
+						"items": {
+							"type": "string",
+							"example": "[\"United Empire of Earth (UEE)\"]"
+						}
+					},
+					"factionsType": {
+						"pattern": "whitelist|blacklist",
+						"type": "string",
+						"example": "blacklist",
+						"enum": [
+							"blacklist,whitelist"
+						]
+					},
+					"minSecurityLevel": {
+						"maximum": 99,
+						"minimum": 0,
+						"type": "integer",
+						"format": "int32",
+						"example": 1
+					},
+					"supportedBoxSizeInScu": {
+						"maximum": 32,
+						"minimum": 1,
+						"type": "integer",
+						"format": "int32",
+						"example": 32
+					},
+					"avoidHiddenLocations": {
+						"type": "boolean",
+						"example": true
+					},
+					"itemName": {
+						"type": "string",
+						"example": "Astatine"
+					},
+					"itemQuantityInScu": {
+						"maximum": 100000000,
+						"type": "integer",
+						"format": "int32",
+						"example": 100
+					},
+					"isCargoStolen": {
+						"type": "boolean",
+						"example": false
+					},
+					"allowWaitTimes": {
+						"type": "boolean",
+						"example": false
+					},
+					"minInventorySizeInScu": {
+						"maximum": 100000000,
+						"type": "integer",
+						"format": "int32",
+						"example": 100
+					}
+				}
+			},
+			"AlertDto": {
+				"required": [
+					"token"
+				],
+				"type": "object",
+				"properties": {
+					"message": {
+						"type": "string"
+					},
+					"token": {
+						"type": "string"
+					}
+				}
+			},
+			"ShopDto": {
+				"type": "object",
+				"properties": {
+					"name": {
+						"type": "string"
+					}
+				}
+			},
+			"ShipDto": {
+				"type": "object",
+				"properties": {
+					"name": {
+						"type": "string"
+					}
+				}
+			},
+			"SecurityLevelDto": {
+				"type": "object",
+				"properties": {
+					"id": {
+						"type": "integer",
+						"format": "int32"
+					},
+					"name": {
+						"type": "string"
+					},
+					"icon": {
+						"type": "string"
+					}
+				}
+			},
+			"LocationDto": {
+				"type": "object",
+				"properties": {
+					"name": {
+						"type": "string"
+					},
+					"type": {
+						"type": "string"
+					}
+				}
+			},
+			"LocationBountyDto": {
+				"type": "object",
+				"properties": {
+					"location": {
+						"type": "string"
+					},
+					"multiplier": {
+						"type": "number",
+						"format": "double"
+					}
+				}
+			},
+			"LeaderboardUserDto": {
+				"type": "object",
+				"properties": {
+					"position": {
+						"type": "integer",
+						"format": "int32"
+					},
+					"name": {
+						"type": "string"
+					},
+					"points": {
+						"type": "number",
+						"format": "double"
+					}
+				}
+			},
+			"CrowdsourceCommodityListingsDto": {
+				"required": [
+					"batchId",
+					"commodity",
+					"location",
+					"timestamp",
+					"transaction"
+				],
+				"type": "object",
+				"properties": {
+					"location": {
+						"type": "string",
+						"example": "Orison"
+					},
+					"transaction": {
+						"type": "string",
+						"example": "BUYS"
+					},
+					"commodity": {
+						"type": "string",
+						"example": "Processed Food"
+					},
+					"price": {
+						"maximum": 100000000,
+						"type": "number"
+					},
+					"quantity": {
+						"maximum": 100000000,
+						"type": "integer",
+						"format": "int32"
+					},
+					"saturation": {
+						"maximum": 1,
+						"type": "number",
+						"format": "double"
+					},
+					"boxSizesInScu": {
+						"type": "array",
+						"items": {
+							"type": "integer",
+							"format": "int32"
+						}
+					},
+					"batchId": {
+						"type": "string",
+						"example": "aeaf1caa306ca7d5efcb18c2dadc025338b9da510c8f07c08a430d730aba10c2"
+					},
+					"timestamp": {
+						"type": "string",
+						"format": "date-time"
+					}
+				}
+			},
+			"PageCrowdsourceCommodityListingsDto": {
+				"type": "object",
+				"properties": {
+					"totalElements": {
+						"type": "integer",
+						"format": "int64"
+					},
+					"totalPages": {
+						"type": "integer",
+						"format": "int32"
+					},
+					"pageable": {
+						"$ref": "#/components/schemas/PageableObject"
+					},
+					"size": {
+						"type": "integer",
+						"format": "int32"
+					},
+					"content": {
+						"type": "array",
+						"items": {
+							"$ref": "#/components/schemas/CrowdsourceCommodityListingsDto"
+						}
+					},
+					"number": {
+						"type": "integer",
+						"format": "int32"
+					},
+					"sort": {
+						"type": "array",
+						"items": {
+							"$ref": "#/components/schemas/SortObject"
+						}
+					},
+					"numberOfElements": {
+						"type": "integer",
+						"format": "int32"
+					},
+					"first": {
+						"type": "boolean"
+					},
+					"last": {
+						"type": "boolean"
+					},
+					"empty": {
+						"type": "boolean"
+					}
+				}
+			},
+			"PageableObject": {
+				"type": "object",
+				"properties": {
+					"paged": {
+						"type": "boolean"
+					},
+					"pageNumber": {
+						"type": "integer",
+						"format": "int32"
+					},
+					"pageSize": {
+						"type": "integer",
+						"format": "int32"
+					},
+					"offset": {
+						"type": "integer",
+						"format": "int64"
+					},
+					"sort": {
+						"type": "array",
+						"items": {
+							"$ref": "#/components/schemas/SortObject"
+						}
+					},
+					"unpaged": {
+						"type": "boolean"
+					}
+				}
+			},
+			"SortObject": {
+				"type": "object",
+				"properties": {
+					"direction": {
+						"type": "string"
+					},
+					"nullHandling": {
+						"type": "string"
+					},
+					"ascending": {
+						"type": "boolean"
+					},
+					"property": {
+						"type": "string"
+					},
+					"ignoreCase": {
+						"type": "boolean"
+					}
+				}
+			}
+		}
+	}
+}
