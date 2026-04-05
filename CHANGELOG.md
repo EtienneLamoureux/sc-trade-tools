@@ -8,14 +8,14 @@
   - Item submissions contribute to the leaderboard score
 
 ### Bugs
-- Fix tooltips across the site
+- Fix tooltips not showing up correctly across the site
 
 ### Other
 - Sort listings by cheapest first in the "Sold by" section of /commodities
 - Display top 100 commodity location bounties in /leaderboards
 - Document and display the item location bounties in /leaderboards
 - Rename the old Auroras "Mk I"
-- Add the Aurora Mk I SE
+- Add Aurora Mk I SE
 
 ### Breaking changes
 Consult our [API migration guide](https://github.com/EtienneLamoureux/sc-trade-tools/blob/master/api-docs/10.2.2%20to%2011.0.0%20api%20migration%20guide.md)
