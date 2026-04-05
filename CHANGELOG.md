@@ -1,4 +1,25 @@
 # SC Trade Tools
+## 11.0.0
+### Features
+- Add /item-finder tool
+  - Find where any item is sold in-game and narrow down locations with our powerful filters
+  - Display item type, description, and link to the Wiki
+- Support item kiosk submissions from the [Companion application](https://github.com/EtienneLamoureux/sc-trade-companion#sc-trade-companion)
+  - Item submissions contribute to the leaderboard score
+
+### Bugs
+- Fix tooltips across the site
+
+### Other
+- Sort listings by cheapest first in the "Sold by" section of /commodities
+- Display top 100 commodity location bounties in /leaderboards
+- Document and display the item location bounties in /leaderboards
+
+### Breaking changes
+Consult our [API migration guide](https://github.com/EtienneLamoureux/sc-trade-tools/blob/master/api-docs/10.2.2%20to%2011.0.0%20api%20migration%20guide.md)
+- [10.2.2 OpenAPI spec](https://github.com/EtienneLamoureux/sc-trade-tools/blob/master/api-docs/10.2.2.json)
+- [11.0.0 OpenAPI spec](https://github.com/EtienneLamoureux/sc-trade-tools/blob/master/api-docs/11.0.0.json)
+
 ## 10.2.2
 ### Bugs
 - Fix an issue when ingesting submissions from the [companion application](https://github.com/EtienneLamoureux/sc-trade-companion#sc-trade-companion)
