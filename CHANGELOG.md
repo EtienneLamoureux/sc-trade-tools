@@ -1,4 +1,13 @@
 # SC Trade Tools
+## 11.0.1
+### Bugs
+- Fix the item location bounties
+
+### Other
+- Add a clear button to the "Starting location" filter
+- Add the /item-finder card to the homepage
+- SEO optimizations
+
 ## 11.0.0
 ### Features
 - Add /item-finder tool
