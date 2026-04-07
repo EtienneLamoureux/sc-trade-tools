@@ -1,4 +1,8 @@
 # SC Trade Tools
+## 11.0.2
+### Bugs
+- Fix Refinery shops not showing up in /item-finder results
+
 ## 11.0.1
 ### Bugs
 - Fix the item location bounties
