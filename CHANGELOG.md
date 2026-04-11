@@ -1,4 +1,19 @@
 # SC Trade Tools
+## 11.1.0
+### Features
+- Add the "Auto-loading" miscellenous filter (off by default)
+  - Display port fees when using auto-loading, with propoer box size calculations
+- Trades now always take into account loading times, with proper box size calculations
+- Add "Loading..." state to the /item-finder search box, while the item names are being fetched
+
+### Bugs
+- Fix missing shop types in /item-finder
+- Fix /item-finder permalinks with special characters
+- Fix security icons sometimes incorrectly loading
+
+### Other
+- Transition the form submit button to a spinner while results are loading
+
 ## 11.0.2
 ### Bugs
 - Fix Refinery shops not showing up in /item-finder results
