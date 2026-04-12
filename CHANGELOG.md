@@ -1,4 +1,9 @@
 # SC Trade Tools
+## 11.1.1
+### Bugs
+- Fix incorrect order when osrting trade routes by "Profit over time"
+- Fix incorrect trade route time calculation
+
 ## 11.1.0
 ### Features
 - Add the "Auto-loading" miscellenous filter (off by default)
