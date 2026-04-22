@@ -1,4 +1,16 @@
 # SC Trade Tools
+## 11.2.0
+### Features
+- Add new page: <a href="https://sc-trade.tools/analytics">/analytics</a>
+
+### Bugs
+- Fix /commodity and /shop not showing listings not supporting 1-SCU containers
+
+### Other
+- Improve performance and security
+- Improve API documentation
+- GET /api/ships response now includes `maxBoxSizeInScu`
+
 ## 11.1.1
 ### Bugs
 - Fix incorrect order when sorting trade routes by "Profit over time"
