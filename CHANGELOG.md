@@ -1,4 +1,12 @@
 # SC Trade Tools
+## 11.3.0
+### Features
+- SC Trade Tools is now accessible by MCP, see [documentation](https://github.com/EtienneLamoureux/sc-trade-tools/blob/master/README.md) for details
+- Grant direct API access to more [Patreon tiers](https://www.patreon.com/sc_trade_tools)
+
+### Bugs
+- Fix broken "supported box size" filter in /best-buyer
+
 ## 11.2.0
 ### Features
 - Add new page: <a href="https://sc-trade.tools/analytics">/analytics</a>
