@@ -3,21 +3,6 @@
 
 ![](https://sc-trade.tools/assets/home.png)
 
-## Table of contents
-- [SC Trade Tools](#sc-trade-tools)
-  * [Table of contents](#table-of-contents)
-  * [Links](#links)
-  * [About](#about)
-    + [Features](#features)
-      - [Trade routes](#trade-routes)
-      - [Best buyer](#best-buyer)
-      - [En route](#en-route)
-      - [Mining](#mining)
-      - [Commodities](#commodities)
-      - [Shops](#shops)
-  * [F.A.Q.](#faq)
-  * [Disclaimer](#disclaimer)
-
 ## Links
 |Resource|Link|
 |:--|:--|
@@ -25,52 +10,53 @@
 |Sponsor|https://patreon.com/sc_trade_tools|
 |Tip jar|https://ko-fi.com/sc_trade_tools|
 |Discord server|https://discord.gg/fdCxQAccpG|
-|Supported Star Citizen version|https://sc-trade.tools/api/system/sc-version|
 |What's new?|https://github.com/EtienneLamoureux/sc-trade-tools/blob/master/CHANGELOG.md|
 |API documentation|https://sc-trade.tools/swagger-ui/index.html|
 
 ## About
 SC Trade Tools is a passion project from a Star Citizen trader who got tired of looking at spreadsheets! It aims to fill the sweet spot between ease-of-use and fine data-tuning. It does so by providing powerful search filters which allow any trader to gradually refine their trade runs until they find the perfect one for them.
 
-The data comes directly from the game's files, thanks to the awesome contributors over at [unp4k](https://github.com/dolkensp/unp4k). That means that the prices are rapidly updated after a new patch hits. If a new location or item makes it in, they are equally quickly included. The tools also already support multi-system trades via the pathing algorithms that have been built-in: as soon as Pyro is made available to us, SC Trade Tools will know the optimal trade routes.
+The data is sourced from the Star Citizen community, mostly from contributions from [traders like yourself](https://github.com/EtienneLamoureux/sc-trade-companion)! That means prices reflect real, player-reported values from across the verse and are continuously updated as the community submits new data. The tools support multi-system trades via built-in pathing algorithms, so SC Trade Tools will know the optimal routes as new locations become available.
 
-Since the universe simulation makes the prices vary based on supply and demand, the tools will currently only report the most optimistic profit to be made. In the future, I hope to be able to tap into whichever APIs are released to continuously update the data. I'll also look into manual submission of price corrections if the former takes too long to come!
+Since the universe simulation makes prices vary based on supply and demand, reported profits are based on the best available community data at the time of your query. You can help keep the data accurate by submitting price updates through [our very own companion application](https://github.com/EtienneLamoureux/sc-trade-companion)!
 
-### Features
-#### Trade routes
-> Figuring out the optimal trade run can be a daunting task. Make it easy by using powerful filters to find the best Star Citizen trade routes, tailored specifically to your exact situation and preferences.
+## Features
+- **Trade route optimization**: find the most profitable routes between locations, with support for multi-stop and multi-system journeys
+- **Powerful filters**: narrow down results by location, ship, cargo capacity, budget, and more
+- **Shop & commodity browser**: look up what's bought and sold where, with community-reported prices
+- **Always up-to-date**  data is continuously refreshed from community sources after each patch
+- **Starmap integration**: travel times and routes are computed using in-game starmap data
 
-![](https://raw.githubusercontent.com/EtienneLamoureux/sc-trade-tools/master/documentation/trade-routes.PNG)
-![](https://raw.githubusercontent.com/EtienneLamoureux/sc-trade-tools/master/documentation/trade-routes-circuit.PNG)
+## API
+SC Trade Tools exposes its data programmatically. *An API token is required for authenticated endpoints*.
 
-#### Best buyer
-> Wondering where to sell all that ore you mined? Maybe you've "acquired" some goods and are in need of an unscrupulous buyer. Whatever your hold holds, someone will buy it: find out who will pay the most!
+### REST
+The full REST API is documented via Swagger UI and follows standard HTTP conventions.
 
-![](https://raw.githubusercontent.com/EtienneLamoureux/sc-trade-tools/master/documentation/best-buyer.PNG)
+|Resource|Link|
+|:--|:--|
+|Interactive docs|https://sc-trade.tools/swagger-ui/index.html|
 
-#### En route
-> Maybe you're on your way to meet friends, or maybe you're simply going to the start of your usual trade run. Either way, might as well make an extra buck by carrying something in your cargo hold!
+### MCP (Model Context Protocol)
+SC Trade Tools exposes an [MCP](https://modelcontextprotocol.io) server, allowing AI assistants and agentic tools to query trade data directly.
 
-![](https://raw.githubusercontent.com/EtienneLamoureux/sc-trade-tools/master/documentation/en-route.PNG)
+**Configuration:**
+```json
+{
+	"sc-trade-tools": {
+		"type": "http",
+		"url": "https://sc-trade-tools.com/mcp",
+		"headers": {
+			"Authorization": "Bearer <API token>"
+		}
+	}
+}
+```
 
-#### Mining
-> Not all deposits are created equal. Cut the prospection and skip to the extraction by knowing where you're most likely to strike gold, or better yet, quantainium!
-
-![](https://raw.githubusercontent.com/EtienneLamoureux/sc-trade-tools/master/documentation/mining.PNG)
-![](https://raw.githubusercontent.com/EtienneLamoureux/sc-trade-tools/master/documentation/mining-price-list.PNG)
-
-#### Commodities
-> More the hands-on type? Access the data directly, which spans dozens of commodities across entire star systems, and come up with your own personal trade routes.
-
-![](https://raw.githubusercontent.com/EtienneLamoureux/sc-trade-tools/master/documentation/commodities.PNG)
-
-#### Shops
-> Being on-site is overrated. Save yourself some quantum fuel and check out any shop's data as if you were there, without even stepping in your ship!
-
-![](https://raw.githubusercontent.com/EtienneLamoureux/sc-trade-tools/master/documentation/shops.PNG)
+The server is stateless, so no session management is required on your end.
 
 ## F.A.Q.
-See the [official website](https://sc-trade.tools#faq).
+See the [official website](https://sc-trade.tools/help).
 
 ## Disclaimer
 <sup>SC Trade Tools is an unofficial Star Citizen fansite, not affiliated with the Cloud Imperium group of companies. All content on SC Trade Tools not authored by its host or users are property of their respective owners. Star Citizen®, Roberts Space Industries® and Cloud Imperium® are registered trademarks of Cloud Imperium Rights LLC</sup>
