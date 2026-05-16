@@ -1,4 +1,15 @@
 # SC Trade Tools
+## 11.3.1
+### Bugs
+- Fix an issue where "smart filters" would sometime remove all trades in the different tools
+- Fix circular trade routes sometimes showing trades with box sizes too large for current ship
+
+### Other
+- Add more links to the website's navigation
+- Deprecate the "Maximum commodity volume" commodity filter
+- Adjusted the Hammerhead's cargo capacty, following its gold pass
+- Added the M80
+
 ## 11.3.0
 ### Features
 - SC Trade Tools is now accessible by MCP, see [documentation](https://github.com/EtienneLamoureux/sc-trade-tools/blob/master/README.md) for details
