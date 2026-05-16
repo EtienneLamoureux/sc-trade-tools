@@ -28,7 +28,9 @@ Since the universe simulation makes prices vary based on supply and demand, repo
 - **Starmap integration**: travel times and routes are computed using in-game starmap data
 
 ## API
-SC Trade Tools exposes its data programmatically. *An API token is required for authenticated endpoints*.
+SC Trade Tools exposes its data programmatically. *An API token is required for authenticated endpoints.* 
+
+N.B.: The [project's supporters](https://www.patreon.com/cw/sc_trade_tools/membership) are automatically granted an API token.
 
 ### REST
 The full REST API is documented via Swagger UI and follows standard HTTP conventions.
