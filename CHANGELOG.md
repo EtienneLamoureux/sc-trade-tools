@@ -7,7 +7,7 @@
 ### Other
 - Add more links to the website's navigation
 - Deprecate the "Maximum commodity volume" commodity filter
-- Adjusted the Hammerhead's cargo capacty, following its gold pass
+- Adjusted the Hammerhead's cargo capacity, following its gold pass
 - Added the M80
 
 ## 11.3.0
