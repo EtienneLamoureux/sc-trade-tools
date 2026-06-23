@@ -47,7 +47,7 @@ SC Trade Tools exposes an [MCP](https://modelcontextprotocol.io) server, allowin
 {
 	"sc-trade-tools": {
 		"type": "http",
-		"url": "https://sc-trade-tools.com/mcp",
+		"url": "https://sc-trade.tools/mcp",
 		"headers": {
 			"Authorization": "Bearer <API token>"
 		}
