@@ -1,4 +1,11 @@
 # SC Trade Tools
+## 11.3.2
+### Bugs
+- Fix an issue where /item-finder dropdown would take a long time to populate
+
+### Other
+- Add MCP tool getItemsByLike
+
 ## 11.3.1
 ### Bugs
 - Fix an issue where "smart filters" would sometime remove all trades in the different tools
