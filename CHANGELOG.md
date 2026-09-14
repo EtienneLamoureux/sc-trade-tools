@@ -10,7 +10,7 @@
 - Fix an issue where API/MCP access was not timely given for new support on Patreon
 
 ### Other
-- Add missing items to the database, up to Star Citizen LIVE 4.9
+- Update item database with updated descriptions for all items, better type categorization and add missing items, up to Star Citizen LIVE 4.9
 
 ## 11.3.2
 ### Bugs
