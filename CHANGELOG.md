@@ -6,7 +6,11 @@
 - Fix circular trade routes and itineraries suggesting routes with wait times, despite wait times being disallowed, in certain conditions
 - Fix the Ironclad Assault cargo capacity
 - Add the missing Makau clothing shop
+- Fix new lines not showing up correctly in item descriptions in /item-finder
 - Fix an issue where API/MCP access was not timely given for new support on Patreon
+
+### Other
+- Add missing items to the database, up to Star Citizen LIVE 4.9
 
 ## 11.3.2
 ### Bugs
