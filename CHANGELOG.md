@@ -1,4 +1,13 @@
 # SC Trade Tools
+## 11.3.3
+### Bugs
+- Fix optimal non-full-cargo-routes not being shown in certain conditions
+  - Specifically when both the "Smart filters" and the "Allow wait times" toggles are both OFF
+- Fix circular trade routes and itineraries suggesting routes with wait times, despite wait times being disallowed, in certain conditions
+- Fix the Ironclad Assault cargo capacity
+- Add the missing Makau clothing shop
+- Fix an issue where API/MCP access was not timely given for new support on Patreon
+
 ## 11.3.2
 ### Bugs
 - Fix an issue where /item-finder dropdown would take a long time to populate
