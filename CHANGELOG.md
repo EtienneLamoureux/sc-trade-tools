@@ -1,4 +1,9 @@
 # SC Trade Tools
+## 11.3.4
+### Other
+- Update item database with updates descriptions for all items, better type categorization and add missing items
+- Allow users submitting data from multiple computers to have a single, consolidated leaderboard entry
+
 ## 11.3.3
 ### Bugs
 - Fix optimal non-full-cargo-routes not being shown in certain conditions
