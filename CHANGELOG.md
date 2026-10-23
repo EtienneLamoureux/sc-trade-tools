@@ -1,4 +1,8 @@
 # SC Trade Tools
+## 11.4.0
+### Features
+- Add GET `/api/commodity/transactions`: Returns all commodity buy/sell transactions across all shops, sorted by shop name then commodity name. Requires a valid token.
+
 ## 11.3.4
 ### Other
 - Update item database with updates descriptions for all items, better type categorization and add missing items
