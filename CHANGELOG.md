@@ -1,4 +1,11 @@
 # SC Trade Tools
+## 11.4.1
+### Other
+- Add `submitedAtOrAfter` filter to GET /api/crowdsource/commodity-listings
+  - Allows to only fetch new submissions since a given date
+- Fix an issue where supporters would not get timely access to the API through their tokens
+- Improve performance and security
+
 ## 11.4.0
 ### Features
 - Add GET `/api/commodity/transactions`: Returns all commodity buy/sell transactions across all shops, sorted by shop name then commodity name. Requires a valid token.
