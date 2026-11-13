@@ -1,4 +1,14 @@
 # SC Trade Tools
+## 11.5.0
+### Features
+- Add /blueprints page
+   - Example: [https://sc-trade.tools/blueprints/VK-00](https://sc-trade.tools/blueprints/VK-00)
+- Add /factions page
+   - Example: [https://sc-trade.tools/factions/InterSec%20Defense%20Solutions](https://sc-trade.tools/factions/InterSec%20Defense%20Solutions)
+
+### Other
+- Added the blueprints and factions tools to the MCP server
+
 ## 11.4.1
 ### Other
 - Add `submitedAtOrAfter` filter to GET /api/crowdsource/commodity-listings
